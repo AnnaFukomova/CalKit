@@ -1,0 +1,114 @@
+.section-fon  {
+    background-image: url(../img/sectint-fon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.simple-text {
+    font-size: 17px;
+    line-height: 26px;
+}
+
+.section-header {
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 60px;
+    margin-bottom: 5vw;
+}
+
+.search-container {
+    padding-bottom: 42px;
+}
+
+.search-section {
+    padding: 14px 2px 14px 55px;
+    opacity: 0.75;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    box-sizing: border-box;
+    width: 53%;
+    backdrop-filter: blur(13.5914px);
+    border-radius: 12px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.knowage-card {
+    width: 364px;
+    height: 464px;
+    padding: 36px 30px 30px 30px;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.65) 100%);
+    opacity: 0.98;
+    backdrop-filter: blur(13.5914px);
+    border-radius: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    position: relative;
+    padding-bottom: 63px;
+}
+
+.knowage-card__container {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 1440px;
+    padding: 0 150px 60px;
+    margin: 0 auto;
+}
+
+
+.knowage-card:nth-child(3n) {
+    margin-right: 0px;
+}
+
+input[type="search"]::placeholder {
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.knowage-card__contant {
+    flex-direction: column;    
+}
+
+.knowage-heoder {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #111111;
+    padding: 30px 0 24px;
+}
+
+.knowage-paragraf {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 26px;
+    text-decoration-line: underline;
+    color: #111111;
+    padding-bottom: 18px;
+}
+
+.knowage-paragraf:last-child {
+    padding-bottom: 0px;
+}
+
+.knowage-paragraf:first-child {
+    padding-top:96vw;
+}
+
+.knowage-link {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 26px;
+    color: #4419EF;
+    padding: 6px 0;
+    position: absolute;
+    bottom: 56px;
+}
+
+/* .examp-calc__fon {
+    
+} */

@@ -1,0 +1,50 @@
+
+@import url(../css/style.css);
+
+/* Обобщающие стили  */
+
+html {
+    font-family: 'Inter';
+    background-color: #F9F9FA;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.back-transform {
+    background-size: cover;
+    width: 100%;
+}
+
+/* flex */
+
+.flex {
+    display: flex;
+}
+
+.space-between__property {
+    display: flex;
+    justify-content: space-between;
+}
+
+.сentral-text {
+    text-align: center;
+}
+
+.flex-start__property {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* cursor */
+
+.cursor-pointer {
+    cursor: pointer;
+}

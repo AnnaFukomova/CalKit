@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+
+    <title>KalKit - main</title>
+</head>
+<body>
+    <header>
+        <div class="dark-back">
+            <div class="contriner header-contriner" id="flex">
+                <img id="cursor-pointer" src="img/1-logo.svg" alt="Logo">
+
+               <ul class="nav-container" id="flex">
+                    <a class="header-link" id="cursor-pointer">Reviews</a>
+                    <a class="header-link" id="cursor-pointer">Benefits</a>
+                    <a class="header-link" id="cursor-pointer">Examples</a>
+                    <a class="header-link" id="cursor-pointer">Price</a>
+                    <a class="header-link" id="cursor-pointer">Affiliate Program</a>
+                    <a class="header-link" id="cursor-pointer">Price</a>
+                </ul>
+                <!-- class="header-" -->
+                <select class="language" id="cursor-pointer">
+                    <option class="language-punct" value="English">English</option>
+                    <option class="language-punct" value="Deutsches">Deutsches</option>
+                    <option class="language-punct" value="Français">Français</option>
+                    <option class="language-punct" value="Pусский">Pусский</option>
+                </select>
+
+                <a class="header-link">Log in</a>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="dark-back">
+            <div class="contriner section-contriner" id="flex">
+                <div id="section-blur"></div>
+                <div class="introduction-black">
+                    <h1  class="introduction-header accent-color">Calculators & Forms</h1>
+                    <h2 class="introduction-header light-text">To Make Your Business Thrive</h2>
+                    <p class="introduction-text light-text" style="padding-top: 5%;">Create them yourself in 10 minutes — </p>
+                    <p class="introduction-text">no programming skills needed. And, it’s free!</p>
+                    <div class="introduction-btn_black">
+                        <button class="introduction-btn">Start Now</button>
+                    </div>
+                    <div class="example-black">
+                        <img class="example-black__img" src="img/2-example_img.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <!-- <div class="dark-back"> -->
+           <div class="contriner section-advantages">   <!--id="flex"-->
+                <div class="advantage-block">
+                    <img src="img/3.1-fast-delivery.svg" alt="fast">
+                    <h2>Fast</h2>
+                    <p></p>
+                </div>
+            </div>
+        <!-- </div> -->
+    </section>
+</body>
+</html>

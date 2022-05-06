@@ -1,0 +1,106 @@
+.section-fon  {
+    background-image: url(../img/fon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.section-header {
+    text-align: center;
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 60px;
+    margin-bottom: 24px;
+}
+
+.search-section {
+    padding: 14px 2px 14px 55px;
+    opacity: 0.75;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    box-sizing: border-box;
+    width: 53%;
+    backdrop-filter: blur(13.5914px);
+    border-radius: 12px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.search-container {
+    padding-bottom: 42px;
+}
+
+.section-informationMaterials {
+    background: #F9F9FA;
+}
+
+.information-heading {
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+
+.informate-aside {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-right: 240px;
+}
+
+.information-link {
+    font-weight: 400;
+    color: #5B5B5B;
+    padding-bottom: 15px;
+}
+
+.information-link:hover {
+    font-weight: 500;
+    color: #4419EF;
+}
+
+.information-link:last-child {
+    padding-bottom: 15px;
+}
+
+::-webkit-input-placeholder { /* для webkit-браузеров */
+    color: rgba(255, 255, 255, 0.5);
+}
+::-moz-placeholder { /* для браузеров Firefox 19+ */
+    color: rgba(255, 255, 255, 0.5);
+}
+:-moz-placeholder { /* для браузеров Firefox 18- */
+    color: rgba(255, 255, 255, 0.5);;
+}
+:-ms-input-placeholder { /* для браузеров IE */
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.qestion {
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 74.24%);
+    opacity: 0.75;
+    width: 850px;
+    backdrop-filter: blur(13.5914px);
+    border-radius: 24px;
+}
+
+.qestion-header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    padding-bottom: 24px;
+}
+
+.qestion-punct {
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+.qestion-doc__container {
+    align-items: center;
+    padding-bottom: 18px;
+}
+
+.qestion-doc__container:last-child {
+    padding-bottom: 32px;
+
+}
+
