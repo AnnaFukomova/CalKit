@@ -34,6 +34,11 @@ body {
     justify-content: space-between;
 }
 
+.content-center {
+    display: flex;
+    justify-content: center;
+}
+
 .сentral-text {
     text-align: center;
 }

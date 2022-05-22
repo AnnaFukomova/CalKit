@@ -1,5 +1,5 @@
 1. CalKit - index
-1) Calculators & Forms
+1) Calculators & Forms
 font-style: normal;
 font-weight: 800;
 font-size: 66px;

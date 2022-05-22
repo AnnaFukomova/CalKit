@@ -8,9 +8,6 @@
 }
 
 .section-mainTitle {
-    font-weight: 800;
-    font-size: 54px;
-    line-height: 60px;
     padding-top: 4vw;
     padding-bottom: 2.5vw;
 }
@@ -25,18 +22,12 @@
 
 .section-lastHeading {
     font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 30px;
     padding: 1.582vw 0 1.25vw;
 }
 
 .breadcrumbs-element  {
     display: inline-block;
     font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 26px;
     
     margin-bottom: 1.12vw;
     border-bottom: 1px dashed #1111114a;
@@ -44,11 +35,6 @@
 
 .section-text__marker {
     font-style: normal;
-    font-weight: 600;
-    font-size: 17px;
-    line-height: 26px;
-
-    color: #333333;
 
     flex: none;
     order: 1;
@@ -58,10 +44,6 @@
 
 .section-text__link {
     font-style: normal;
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 26px;
-
     color: #4419EF;
 
     flex: none;

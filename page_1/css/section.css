@@ -15,7 +15,6 @@
 .introduction-text {
     font-weight: 500;
     color: #F9F9FA;
-    /* padding-top: 18px; */
 }
 
 .introduction-btn  {
@@ -23,19 +22,9 @@
 }
 
 .introduction-black {
-    /* z-index: 1; */
+    padding-top: 76px;
+    z-index: 1; 
 }
-
-/* #section-blur {
-    background-image: url(../img/section_1-fon.svg);
-    background-repeat: no-repeat;
-    height: 105%;
-    width: 100%;
-    position: absolute;
-    top: -5%;
-    left: calc(5% - 20px);
-    z-index: 0;
-} */
 
 .introduction-header:first-child {
     padding-top: 5%;
@@ -83,7 +72,7 @@
 }
 
 .advantages-section {
-    margin-top: 15%
+    margin-top: 18%
 }
 
 .advantage-bloc__header {
@@ -206,8 +195,6 @@
 
 .makes-element__heading {
     font-weight: bold;
-    font-size: 24px;
-    line-height: 30px;
     width: 46%;
 }
 
@@ -216,7 +203,6 @@
 }
 
 .makes-element__text {
-    font-weight: 500;
     width: 267px;
 }
 
@@ -235,7 +221,7 @@
     flex-direction: column;
     padding-top: 8.25vw;
     float: left;
-    width: 40%
+    width: 38%;
 }
 
 .pfa-info__title {
@@ -249,8 +235,7 @@
 }
 
 .pfa-info__btnNocolore {
-    border: 1px solid #ffffff6e;
-    font-weight: 600;
+    border: 1px solid #ffffff8f;
     border-radius: 12px;
     background: none;
     margin: 0px 10px;
@@ -260,27 +245,23 @@
 
 .pfa-info__minitext {
     position: absolute;
-    bottom: 6vw;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 24px;
-    color: #FFFFFF;
+    bottom: 145px;
+     color: #FFFFFF;
 }
 
 .pfa-info__img {
     padding: 98px 0;
-    /* padding-right: 2.4vw; */
+    /* padding-right: 45px; */
 }
 
 /* Ready? (Готовы?) */
 
 .section-ready {
     flex-direction: column;
-    /* justify-content: center; */
 }
 
 .ready-back__fon {
-    background-image: url(../img/8-ready/8-ready-fon.png);
+    background-image: url("../img/8-ready/8-ready-fon.png");
     padding: 9% 0;
 }
 
@@ -291,9 +272,6 @@
 }
 
 .section-ready__text {
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 34px;
     width: 55%;
     margin: auto;
     padding: 18px 0 36px;
@@ -319,10 +297,7 @@
 }
 
 .order-title {
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 42px;
-    padding-bottom: 0.95vw;
+    padding-bottom: 18px;
 }
 
 .order-text {
