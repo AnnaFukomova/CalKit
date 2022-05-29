@@ -61,7 +61,9 @@
 
                 <div class="pricing-container flex">
                     <div class="pricing-info">
-                        <p class="pricing-punct pricing-block__element__marker small-text Medium-text demiBlack">We're currently live on AppSumo with super plans. <a href="#" class="pricing-punct__accent small-text Medium-text small-text Medium-text">Learn more on AppSumo</a></p> 
+                        <div class="price-block__header">
+                            <p class="pricing-punct pricing-block__element__marker small-text Medium-text demiBlack">We're currently live on AppSumo with super plans. <a href="#" class="pricing-punct__accent small-text Medium-text small-text Medium-text">Learn more on AppSumo</a></p> 
+                        </div>
                         <p class="pricing-punct pricing-block__element simple-text Medium-text">Number of pages</p> 
                         <p class="pricing-punct pricing-block__element simple-text Medium-text">Email notifications</p> 
                         <p class="pricing-punct pricing-block__element simple-text Medium-text">SMS notifications</p> 
@@ -76,100 +78,138 @@
                         <p class="pricing-punct pricing-block__element simple-text Medium-text">Chat with Support Team</p> 
                         <p class="pricing-punct pricing-block__element simple-text Medium-text">Add custom HTML code</p> 
                         <p class="pricing-punct pricing-block__element simple-text Medium-text">File attachment</p>
-                </div>
+                    </div>
+                
 
                     <div class="pricing-block">
-                        <div class="price-box">
-                            <h3 class="pricing-title Bold-text__Middle Bold-text text-color__bark">Basic</h3> 
-                            <div class="flex"> 
-                                <div class="pricing-currency SemiBold-text__Middle simple-text text-color__bark">$</div>
-                                <p class="pricing-cost big-header Bold-text text-color__bark">8</p> 
-                                <div class="price-tail">
-                                    <p class="pricing-triva text-color__bark">.00</p> 
-                                    <p class="pricing-onTime">/month</p>
+                        <!-- <div class="price-box">
+                            <div class="price-block__header">
+                                <h3 class="pricing-title Bold-text__Middle Bold-text text-color__bark">Basic</h3> 
+                                <div class="flex"> 
+                                    <div class="pricing-currency SemiBold-text__Middle simple-text text-color__bark">$</div>
+                                    <p class="pricing-cost big-header Bold-text text-color__bark">8</p> 
+                                    <div class="price-tail">
+                                        <p class="pricing-triva text-color__bark">.00</p> 
+                                        <p class="pricing-onTime">/month</p>
+                                    </div>
                                 </div>
                             </div>
+                        </div> -->
+                        <div class="price-block__header">
+                            <div class="price-box"> 
+                                <h3 class="pricing-title Bold-text__Middle Bold-text text-color__bark">Basic</h3> 
+                                <div class="flex"> 
+                                    <div class="pricing-currency SemiBold-text__Middle simple-text text-color__bark">$</div>
+                                    <p class="pricing-cost big-header Bold-text text-color__bark">8</p> 
+                                    <div class="price-tail">                                
+                                        <p class="pricing-triva text-color__bark">.00</p> 
+                                        <p class="pricing-onTime">/month</p>
+                                    </div>
+                                </div>  
+                            </div>                      
+                            <div class="content-center"><button class="pricing-button small-text SemiBold-text__Middle text-color__bark">Choose Plan</button></div>
                         </div>
-                        
-                        <div  class="content-center"><button class="pricing-button small-text SemiBold-text__Middle text-color__bark">Choose Plan</button></div>
-                        <div class="pricing-block__element content-center"><p>5</p></div>
-                        <div class="pricing-block__element content-center"><p>3</p></div> 
-                        <div class="pricing-block__element content-center"><p>+300</p><img src="../page_4/img/plus.png" alt="plus"></div>
-                        <div class="pricing-block__element content-center"><p>0</p><img src="../page_4/img/plus.png" alt="plus"></div>
-                        <div class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></div>
-                        <div class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></div>
-                        <div class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></div>
-                        <div class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></div>
-                        <div class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></div>
-                        <div class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></div>
-                        <div class="pricing-block__element content-center"><img src="../page_4/img/The_cross.png" alt="not active"></div>
-                        <div class="pricing-block__element content-center"><img src="../page_4/img/The_cross.png" alt="not active"></div>
-                        <div class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></div>
-                        <div class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></div>
-                        <button  class="pricing-btn">Choose Plan</button> 
+
+                        <ul class="pricing-list">
+                            <li class="pricing-block__element simple-text content-center">5</li>
+                            <li class="pricing-block__element simple-text content-center">3</li> 
+                            <li class="pricing-block__element simple-text content-center">+300<img src="../page_4/img/plus.png" alt="plus"></li>
+                            <li class="pricing-block__element simple-text content-center">0<img src="../page_4/img/plus.png" alt="plus"></li>
+                            <li class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></li>
+                            <li class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></li>
+                            <li class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></li>
+                            <li class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></li>
+                            <li class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></li>
+                            <li class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></li>
+                            <li class="pricing-block__element content-center"><img src="../page_4/img/The_cross.png" alt="not active"></li>
+                            <li class="pricing-block__element content-center"><img src="../page_4/img/The_cross.png" alt="not active"></li>
+                            <li class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></li>
+                            <li class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></li>
+                            <li class="content-center"><button class="pricing-button small-text SemiBold-text__Middle text-color__bark" style="margin: 26px 0 24px;">Choose Plan</button></li>
+                        </ul>
                     </div>
 
                     <div class="pricing-block">
-                        <div class="price-box">
-                            <h3 class="pricing-title Bold-text__Middle Bold-text text-color__bark">Starter</h3> 
-                            <div class="flex"> 
-                                <div class="pricing-currency SemiBold-text__Middle simple-text text-color__bark">$</div>
-                                <p class="pricing-cost big-header Bold-text text-color__bark">20</p> 
-                                <div class="price-tail">                                
-                                    <p class="pricing-triva text-color__bark">.00</p> 
-                                    <p class="pricing-onTime">/month</p>
-                                </div>
-                            </div>
-                            <div  class="content-center"><button class="pricing-button small-text SemiBold-text__Middle text-color__bark">Choose Plan</button></div>
+                        <div class="price-block__header">
+                            <div class="price-box"> 
+                                <h3 class="pricing-title Bold-text__Middle Bold-text text-color__bark">Starter</h3> 
+                                <div class="flex"> 
+                                    <div class="pricing-currency SemiBold-text__Middle simple-text text-color__bark">$</div>
+                                    <p class="pricing-cost big-header Bold-text text-color__bark">20</p> 
+                                    <div class="price-tail">                                
+                                        <p class="pricing-triva text-color__bark">.00</p> 
+                                        <p class="pricing-onTime">/month</p>
+                                    </div>
+                                </div>  
+                            </div>                      
+                            <div class="content-center"><button class="pricing-button small-text SemiBold-text__Middle text-color__bark">Choose Plan</button></div>
                         </div>
-                          
-                        <div class="pricing-block__element content-center"><p>15</p></div> 
-                        <div class="pricing-block__element content-center"><p>10</p></div> 
-                        <div class="pricing-block__element content-center"><p>+1 000</p><img src="../page_4/img/plus.png" alt="plus"></div>
-                        <div class="pricing-block__element content-center"><p>+10</p><img src="../page_4/img/plus.png" alt="plus"></div>
-                        <div class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></div>
-                        <div class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></div>
-                        <div class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></div>
-                        <div class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></div>
-                        <div class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></div>
-                        <div class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></div>
-                        <div class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></div>
-                        <div class="pricing-block__element content-center"><img src="../page_4/img/The_cross.png" alt="not active"></div>
-                        <div class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></div>
-                        <div class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></div>
-                        <button class="pricing-btn">Choose Plan</button> 
+
+                        <ul class="pricing-list">   
+                            <li class="pricing-block__element simple-text content-center">15</li> 
+                            <li class="pricing-block__element simple-text content-center">10</li> 
+                            <li class="pricing-block__element simple-text content-center">+1 000<img src="../page_4/img/plus.png" alt="plus"></li>
+                            <li class="pricing-block__element simple-text content-center">+10<img src="../page_4/img/plus.png" alt="plus"></li>
+                            <li class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></li>
+                            <li class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></li>
+                            <li class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></li>
+                            <li class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></li>
+                            <li class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></li>
+                            <li class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></li>
+                            <li class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></li>
+                            <li class="pricing-block__element content-center"><img src="../page_4/img/The_cross.png" alt="not active"></li>
+                            <li class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></li>
+                            <li class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></li>
+                            <li class="content-center"><button class="pricing-button small-text SemiBold-text__Middle text-color__bark" style="margin: 26px 0 24px;">Choose Plan</button></li>
+                        </ul> 
                     </div>
 
                     <div class="pricing-block">
-                        <div class="price-box">
-                        <h3 class="pricing-title Bold-text__Middle Bold-text text-color__bark">Pro</h3> 
-                            <div class="flex">
-                                <div class="pricing-currency SemiBold-text__Middle simple-text text-color__bark">$</div>
-                                <p class="pricing-cost big-header Bold-text text-color__bark">48</p> 
-                                <div class="price-tail">
-                                    <p class="pricing-triva text-color__bark">.00</p> 
-                                    <p class="pricing-onTime">/month</p>
+                        <!-- <div class="price-box">
+                            .
+                                <h3 class="pricing-title Bold-text__Middle Bold-text text-color__bark">Pro</h3> 
+                                <div class="flex">
+                                    <div class="pricing-currency SemiBold-text__Middle simple-text text-color__bark">$</div>
+                                    <p class="pricing-cost big-header Bold-text text-color__bark">48</p> 
+                                    <div class="price-tail">
+                                        <p class="pricing-triva text-color__bark">.00</p> 
+                                        <p class="pricing-onTime">/month</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div  class="content-center"><button class="pricing-button small-text SemiBold-text__Middle text-color__bark">Choose Plan</button></div>
+                        </div> -->
+
+                        <div class="price-block__header">
+                            <div class="price-box"> 
+                                <h3 class="pricing-title Bold-text__Middle Bold-text text-color__bark">Pro</h3> 
+                                <div class="flex"> 
+                                    <div class="pricing-currency SemiBold-text__Middle simple-text text-color__bark">$</div>
+                                    <p class="pricing-cost big-header Bold-text text-color__bark">48</p> 
+                                    <div class="price-tail">                                
+                                        <p class="pricing-triva text-color__bark">.00</p> 
+                                        <p class="pricing-onTime">/month</p>
+                                    </div>
+                                </div>  
+                            </div>                      
+                            <div class="content-center"><button class="pricing-button small-text SemiBold-text__Middle text-color__bark">Choose Plan</button></div>
                         </div>
-                            
-                        <div class="pricing-block__element content-center"><p>&#8734;</p></div>
-                        <div class="pricing-block__element content-center"><p>999</p> <img src="../page_4/img/plus.png" alt="plus"></div>
-                        <div class="pricing-block__element content-center"><p>+3 000</p> <img src="../page_4/img/plus.png" alt="plus"></div>
-                        <div class="pricing-block__element content-center"><p>+30</p></div>
-                        <div class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></div>
-                        <div class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></div>
-                        <div class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></div>
-                        <div class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></div>
-                        <div class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></div>
-                        <div class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></div>
-                        <div class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></div>
-                        <div class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></div>
-                        <div class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></div>
-                        <div class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></div>
-                        <div class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></div>
-                        <button  class="pricing-btn">Choose Plan</button> 
+
+                        <ul class="pricing-list">    
+                            <li class="pricing-block__element simple-text content-center">&#8734;</li>
+                            <li class="pricing-block__element simple-text content-center">999 <img src="../page_4/img/plus.png" alt="plus"></li>
+                            <li class="pricing-block__element simple-text content-center">+3 000 <img src="../page_4/img/plus.png" alt="plus"></li>
+                            <li class="pricing-block__element simple-text content-center">+30</li>
+                            <li class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></li>
+                            <li class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></li>
+                            <li class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></li>
+                            <li class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></li>
+                            <li class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></li>
+                            <li class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></li>
+                            <li class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></li>
+                            <li class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></li>
+                            <li class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></li>
+                            <li class="pricing-block__element content-center"><img src="../page_4/img/checkout.png" alt="is available"></li>
+                            <li class="content-center"><button class="pricing-button small-text SemiBold-text__Middle text-color__bark" style="margin: 26px 0 24px;">Choose Plan</button></li>
+                        </ul>
                     </div>
                 </div>
             </div>        

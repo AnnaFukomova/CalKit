@@ -16,6 +16,10 @@
     width: 20%;
 }
 
+.pricing-punct {
+    color: #5B5B5B;
+}
+
 .pricing-punct__marker {
     font-style: normal;
 }
@@ -26,11 +30,6 @@
     color: #4419EF;
 }
 
-.pricing-punct {
-    font-style: normal;
-    /* identical to box height, or 153% */
-    color: #5B5B5B;
-}
 
 .pricing-punct__marker {
     font-style: normal;
@@ -50,9 +49,15 @@
     color: #4419EF
 }
 
+.price-tail {
+    padding-left: 4px;
+}
+
+
 /* Вопросы и ответы*/
 
 .section-guestions {
+    padding: 140px 0;
     max-width: 1140px;
 }
 
@@ -65,11 +70,13 @@
 }
 
 .pricing-title {
-    /* font-weight: 700; */
+    padding-bottom: 18px;
 }
 
 .pricing-currency {
-    /* font-weight: 600; */
+    padding-top: 4px;
+    line-height: 26px;
+    padding-right: 2px;
 }
 
 .pricing-cost {
@@ -80,6 +87,7 @@
     font-weight: 700;
     font-size: 17px;
     line-height: 18px;
+    padding-top: 8px;
 }
 
 .pricing-onTime {
@@ -89,10 +97,17 @@
 
 .pricing-button {
     text-align: center;
-    padding: 8px 64px;
+    /* padding: 8px 64px; */
+    padding: 8px 0;
+    width: 85%;
+
     border: 1.5px solid #5B5B5B;
     background: rgba(255, 255, 255, 0);
     border-radius: 12px;
+}
+
+.pricing-block > .pricing-button:last-child {
+    background-color: #FBC401;
 }
 
 .pricing-button:hover {
@@ -129,9 +144,6 @@
     justify-content: space-around;
 }
 
-.pricing-block__element {
-    margin: 0 auto;
-}
 
 .order-info {
     width: 50%;
@@ -151,7 +163,12 @@
 .price-box {
     padding: 0 24px;
     padding-bottom: 24px;
-    padding-top: 30px;
+}
+
+.price-block__header {
+    height: 16.4%;
+    padding-top: 30px;   
+    margin-bottom: 32px;
 }
 
 .pricing-block {
@@ -159,12 +176,22 @@
     opacity: 0.75;
     backdrop-filter: blur(13.5914px);
     border-radius: 24px;
-    /* */
 }
 
 .pricing-block__element {
     padding: 20px 0;
     border-bottom: 1px solid #5b5b5b3b;
+    margin: 0 auto;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.pricing-block__element > img {
+    padding-left: 5px;
+}
+
+.pricing-block__element:last-child {
+    border-bottom: none;
 }
 
 .pfa-info__img {
