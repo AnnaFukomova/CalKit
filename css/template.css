@@ -50,6 +50,6 @@ body {
 
 /* cursor */
 
-.cursor-pointer {
+a, button, select {
     cursor: pointer;
 }

@@ -1,3 +1,5 @@
+@import url(../page_3/css/media.css);
+
 .breadcrumbs {
     float: right;
     padding-left: 6vw;
@@ -13,7 +15,6 @@
 }
 
 .section-text {
-    font-style: normal;
     font-weight: normal;
     font-size: 17px;
     line-height: 26px;
@@ -21,21 +22,17 @@
 }
 
 .section-lastHeading {
-    font-style: normal;
     padding: 1.582vw 0 1.25vw;
 }
 
 .breadcrumbs-element  {
     display: inline-block;
-    font-style: normal;
-    
+
     margin-bottom: 1.12vw;
     border-bottom: 1px dashed #1111114a;
 }
 
 .section-text__marker {
-    font-style: normal;
-
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -43,7 +40,6 @@
 }
 
 .section-text__link {
-    font-style: normal;
     color: #4419EF;
 
     flex: none;
