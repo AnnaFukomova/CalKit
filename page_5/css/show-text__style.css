@@ -1,0 +1,43 @@
+.content {
+  transition: max-height 0.6s;
+  overflow: hidden;
+}
+.content[aria-hidden=true] {
+  max-height: 0;
+}
+.content[aria-hidden=false] {
+  max-height: var(--qestionContainerHeight, 1000px);
+}
+
+/* Everything after this is merely aesthetics */
+* {
+  box-sizing: border-box;
+}
+
+.qestionContainer {
+  padding-bottom: 14px;
+}
+
+button {
+  border: none;
+}
+
+.trigger {
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  min-height: 30px;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #212121;
+}
+
+.trigger:focus {
+  outline: 0;
+}
+
+.content {
+  display: flex;
+  line-height: 1.4;
+  max-width: 800px;
+}

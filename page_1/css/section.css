@@ -58,7 +58,7 @@
 .section-advantages {
     max-width: 75%;
     margin: 0 auto; 
-    margin-bottom: 6.3vw;
+    /* margin-bottom: 6.3vw; */
 }
 
 .example-black__img {
@@ -74,7 +74,12 @@
 }
 
 .advantages-section {
-    margin-top: 18%
+    margin-top: 268px;
+}
+
+.advantages-container {
+    padding-top: 140px;
+    padding-bottom: 134px;
 }
 
 .advantage-bloc__header {
@@ -108,8 +113,7 @@
 }
 
 .benefits-header {
-    padding-top: 3.25vw;
-    padding-bottom: 3.75vw;
+    padding: 78px 0;
 }
 
 .benefits-bloc__header {
@@ -118,21 +122,25 @@
 
 /* Example (Пример)*/
 .examp-back__fon {
-    background-image: url(../img/4-example/5_examples-fon.png)
-}
-
-.examp-container {
-    padding: 4.2vw 0;
-    justify-content: space-around;
+    background-image: url(../img/4-example/4_examples-fon.png)
 }
 
 .examp-back {
-    padding-left: 2vw;
+    text-align: center;
+}
+
+.examp-img {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .examp-header {
+    font-weight: 800;
+    font-size: 75px;
+    line-height: 100%;
     font-style: normal;
-    padding: 2.2vw 0 1vw;
+    padding: 86px 0 15px;
 }
 
 .examp-header__next, .examp-text, .pfa-info__minitext  {
