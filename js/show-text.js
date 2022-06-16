@@ -16,7 +16,7 @@ function setHeights() {
 		// Необходимо, если это действие выполняется после изменения размера
 		content.removeAttribute("aria-hidden");
 		// Высота контента для показа/скрытия
-		let heightOfContent = content.getBoundingClientRect().height;
+		let heightOfContent = content.querySelector(".qestion-punct__description").scrollHeight;
 		// Установите пользовательское свойство CSS с высотой содержимого
 		qestionContainer.style.setProperty("--qestionContainerHeight", `${heightOfContent}px`);
 		//qestionContainer-container

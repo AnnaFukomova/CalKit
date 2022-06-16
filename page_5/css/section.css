@@ -103,8 +103,8 @@
 }
 
 .qestion-punct__description {
-    padding: 15px 0 0 40px;    
-    max-width: 100%;    
+    padding: 15px 0 0 40px;
+    max-width: 100%;
     font-size: 17px;
     line-height: 25px;
 }
@@ -116,6 +116,5 @@
 
 .qestion-doc__container:last-child {
     padding-bottom: 32px;
-
 }
 

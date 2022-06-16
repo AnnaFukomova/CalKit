@@ -16,19 +16,28 @@
         <!-- style CSS -->
         <link rel="stylesheet" href="../css/template.css">
         <link rel="stylesheet" href="../include/reset.css">
+        <link rel="stylesheet" href="../css/loader.css">
         <link rel="stylesheet" href="../page_4/css/section.css">
         <link rel="stylesheet" href="../page_6/css/section.css">
         <link rel="stylesheet" href="../include/header/header.css">
         <link rel="stylesheet" href="../include/footer/footer.css">
         
+        <link rel="stylesheet" href="../css/scroll/scrolTop.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
         <title>Get in touch with us</title>
     </head>
     <body>
+        <div class="mask">
+            <div class="loader-wrap">
+                <div class="loader"></div>
+            </div>
+        </div>
+
         <div class="form-wrap__fon back-transform">
             <header>
                 <div class="header-container space-between__property">
-                    <a href="../page_1/index.html"><img class="" src="../include/header/img/1-logo_light.svg" alt="Logo"></a>
+                    <a href="index.html"><img class="" src="../include/header/img/1-logo_light.svg" alt="Logo"></a>
 
                     <menu class="nav-container flex">
                         <li><a class="header-link" href="../index.html">Home</a></li>
@@ -123,7 +132,14 @@
         </div> 
     </footer>
     
-    <script src="https://kit.fontawesome.com/ed9e32c3a4.js" crossorigin="anonymous"></script>
+    <a href="#" id="scroll_top" title="Upstairs"></a>
+
+    <script  src="../js/scroll.js"></script>
+    <script src='https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js'></script>
+    
+    <script  src="../js/loader.js"></script>
+
+    <!-- <script src="https://kit.fontawesome.com/ed9e32c3a4.js" crossorigin="anonymous"></script> -->
 
   </body>
 </html>

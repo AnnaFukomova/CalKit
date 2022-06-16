@@ -15,13 +15,23 @@
     <!-- style CSS -->
     <link rel="stylesheet" href="../css/template.css">
     <link rel="stylesheet" href="../include/reset.css">
+    <link rel="stylesheet" href="../css/loader.css">
     <link rel="stylesheet" href="../page_2/css/section.css">
     <link rel="stylesheet" href="../include/header/header.css">
     <link rel="stylesheet" href="../include/footer/footer.css">
+  
+    <link rel="stylesheet" href="../css/scroll/scrolTop.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
     <title>CalKit Knowledge Base</title>
   </head>
   <body>
+    <div class="mask">
+        <div class="loader-wrap">
+            <div class="loader"></div>
+        </div>
+    </div>
+
         <section>
             <div class="section-fon">
                 <header class="header-min">
@@ -63,7 +73,7 @@
                                 <h2 class="knowage-heoder Bold-text__Middle Bold-text">Formulas</h2>
                                 <p class="knowage-paragraf text-color__bark  simple-text Normal-text">Calculating discounts for products and services</p>
                                 <p class="knowage-paragraf text-color__bark  simple-text Normal-text">Boolean expressions</p>
-                                <a class="knowage-link simple-text SemiBold-text__Middle simple-text text__accent" href="#">View all</a>
+                                <a class="knowage-link simple-text SemiBold-text__Middle simple-text text__accent" href="../page_5/FAQ-Formulas.html">View all</a>
                             </div>
                         </div>
 
@@ -75,7 +85,7 @@
                                 <p class="knowage-paragraf text-color__bark  simple-text Normal-text">How do I hide/disable the result in the design?</p>
                                 <p class="knowage-paragraf text-color__bark  simple-text Normal-text">How do I change the calculator size?</p>
                                 <p class="knowage-paragraf text-color__bark  simple-text Normal-text">How do I change the color scheme?</p>
-                                <a class="knowage-link simple-text SemiBold-text__Middle simple-text text__accent" href="#">View all</a>
+                                <a class="knowage-link simple-text SemiBold-text__Middle simple-text text__accent" href="../page_5/FAQ-Interface.html">View all</a>
                             </div>     
                         </div>
 
@@ -87,7 +97,7 @@
                                 <p class="knowage-paragraf text-color__bark  simple-text Normal-text">How do I make a field required?</p>
                                 <p class="knowage-paragraf text-color__bark  simple-text Normal-text">How do I add custom HTML code?</p>
                                 <p class="knowage-paragraf text-color__bark  simple-text Normal-text">How do I change the division value of the slider?</p>
-                                <a class="knowage-link simple-text SemiBold-text__Middle simple-text text__accent" href="#">View all</a>
+                                <a class="knowage-link simple-text SemiBold-text__Middle simple-text text__accent" href="../page_5/FAQ-Widgets.html">View all</a>
                             </div>
                         </div>
                         
@@ -98,7 +108,7 @@
                                 <h2 class="knowage-heoder Bold-text__Middle Bold-text">Publication</h2>
                                 <p class="knowage-paragraf text-color__bark  simple-text Normal-text">How often do I need to update the calculator code on my website?</p>
                                 <p class="knowage-paragraf text-color__bark  simple-text Normal-text">How do I get a shareable link to my project?</p>
-                                <a class="knowage-link simple-text SemiBold-text__Middle simple-text text__accent" href="#">View all</a>
+                                <a class="knowage-link simple-text SemiBold-text__Middle simple-text text__accent" href="../page_5/FAQ-Publication.html">View all</a>
                             </div>
                         </div>
 
@@ -109,7 +119,7 @@
                                 <h2 class="knowage-heoder Bold-text__Middle Bold-text">Payment Methods</h2>
                                 <p class="knowage-paragraf text-color__bark  simple-text Normal-text">PayPal</p>
                                 <p class="knowage-paragraf text-color__bark  simple-text Normal-text">Yandex.Checkout</p>
-                                <a class="knowage-link simple-text SemiBold-text__Middle simple-text text__accent" href="#">View all</a>
+                                <a class="knowage-link simple-text SemiBold-text__Middle simple-text text__accent" href="../page_5/FAQ-PaymentSystems.html">View all</a>
                             </div>
                         </div>
 
@@ -121,7 +131,7 @@
                                 <p class="knowage-paragraf text-color__bark  simple-text Normal-text">uCoz</p>
                                 <p class="knowage-paragraf text-color__bark  simple-text Normal-text">uKit</p>
                                 <p class="knowage-paragraf text-color__bark  simple-text Normal-text">WorldPress</p>
-                                <a class="knowage-link simple-text SemiBold-text__Middle simple-text text__accent" href="#">View all</a>
+                                <a class="knowage-link simple-text SemiBold-text__Middle simple-text text__accent" href="../page_5/FAQ-Integrations.html">View all</a>
                             </div>
                         </div>
 
@@ -133,7 +143,7 @@
                                 <p class="knowage-paragraf text-color__bark  simple-text Normal-text">How do I connect statistics?</p>
                                 <p class="knowage-paragraf text-color__bark  simple-text Normal-text">How do I create my project's copy?</p>
                                 <p class="knowage-paragraf text-color__bark  simple-text Normal-text">Affiliate program</p>
-                                <a class="knowage-link simple-text SemiBold-text__Middle simple-text text__accent" href="#">View all</a>
+                                <a class="knowage-link simple-text SemiBold-text__Middle simple-text text__accent" href="../page_5/FAQ-General.html">View all</a>
                             </div>
                         </div>
                     </div>
@@ -169,5 +179,13 @@
                 </div>
             </div> 
         </footer>
+
+        <a href="#" id="scroll_top" title="Upstairs"></a>
+
+        <script  src="../js/scroll.js"></script>
+        <script src='https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js'></script>
+
+        <script  src="../js/loader.js"></script>
+
   </body>
 </html>

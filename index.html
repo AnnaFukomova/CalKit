@@ -11,16 +11,25 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-        <!-- style CSS -->
+        <!-- style CSS -->        
+        <link rel="stylesheet" href="page_1/css/section.css">        
+        <link rel="stylesheet" href="css/scroll/scrolTop.css">
         <link rel="stylesheet" href="css/template.css">
+        <link rel="stylesheet" href="css/loader.css">       
         <link rel="stylesheet" href="include/reset.css">
-        <link rel="stylesheet" href="page_1/css/section.css">
         <link rel="stylesheet" href="include/header/header.css">
         <link rel="stylesheet" href="include/footer/footer.css">
 
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        
         <title>KalKit - main</title>
     </head>
     <body>
+        <div class="mask">
+            <div class="loader-wrap">
+                <div class="loader"></div>
+            </div>
+        </div>
 
         <div class="back-transform dark-back__main">
             <header>
@@ -59,7 +68,7 @@
                             </p>
                         </div>
                         <div class="introduction-btn_black section-center">
-                            <button class="introduction-btn btn colored-button simple-text"><a href="page_4/price.html">Start Now</a> </button>
+                            <a class="introduction-btn btn colored-button simple-text" href="page_4/price.html">Start Now</a>
                         </div>
                         <div class="example-black">
                             <img class="example-black__img" src="page_1/img/1-main_informaion/2-example_img.png">
@@ -261,8 +270,8 @@
                     </p>
                 
                     <div class="pfa-btn__container">
-                        <button class="btn colored-button SemiBold-text__Middle simple-text"><a href="page_4/price.html">Start Now</a></button>
-                        <button class="pfa-info__btnNocolore SemiBold-text__Middle simple-text  light-text">Show more</button>
+                        <a class="btn colored-button SemiBold-text__Middle simple-text" href="page_4/price.html">Start Now</a>
+                        <a class="pfa-info__btnNocolore SemiBold-text__Middle simple-text  light-text">Show more</a>
                     </div>
                 <!-- </div>-->
                 <p class="pfa-info__minitext small-text Medium-text">
@@ -318,7 +327,7 @@
                     by setting up the fields to fit your business' and website audience's needs!
                 </p>
                 <div class="section-center flex">
-                    <button class="introduction-btn simple-text btn colored-button"><a href="page_4/price.html"> Start Now</a></button>
+                    <a class="introduction-btn simple-text btn colored-button" href="page_4/price.html">Start Now</a>
                 </div>
             </div>
         </div>
@@ -377,6 +386,13 @@
             </div>
         </div> 
     </footer>
-   
+    
+    <a href="#" id="scroll_top" title="Upstairs"></a>
+
+    <script  src="js/scroll.js"></script>
+    <script src='https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js'></script>
+    
+    <script  src="js/loader.js"></script>
+
   </body>
 </html>
