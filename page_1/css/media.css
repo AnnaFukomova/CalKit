@@ -1,3 +1,10 @@
+@import url(../../css/style.css);
+@import url(../../css/template.css);
+@import url(../../include/reset.css);
+@import url(../../page_1/css/section.css);
+@import url(../../include/header/header-black.css);
+@import url(../../include/footer/footer.css);
+
 /* Responsive starts here */
 
 @media screen and (max-width: 1200px) {
@@ -9,6 +16,11 @@
 @media screen and (max-width: 1199px) {
 	.container {
 		width: 960px;
+	}
+		
+	.nav-container {
+		width: 65%;
+		justify-content: space-between;
 	}
 }
 

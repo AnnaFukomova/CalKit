@@ -1,4 +1,4 @@
-@import url(../page_2/css/media.css);
+@import url(../css/media.css);
 
 .section-fon  {
     background-image: url(../img/sectint-fon.svg);
@@ -7,9 +7,9 @@
     width: 100%;
 }
 
-.section-header {
+.main-heading {
     text-align: center;
-    margin-bottom: 90px;
+    padding: 5% 0;
 }
 
 .search-container {

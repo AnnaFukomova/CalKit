@@ -1,3 +1,10 @@
+@import url(../../css/style.css);
+@import url(../../css/template.css);
+@import url(../../include/reset.css);
+@import url(../../page_2/css/section.css);
+@import url(../../include/header/header.css);
+@import url(../../include/footer/footer.css);
+
 /* Responsive starts here */
 
 @media screen and (max-width: 1200px) {

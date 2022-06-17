@@ -7,10 +7,6 @@
     width: 75%;
 }
 
-.language-marker {
-    color: #5B5B5B;
-}
-
 .footer-top_link {
     font-style: normal;
     font-weight: normal;
@@ -33,12 +29,6 @@
     text-align: center;
     color: #5B5B5B;
     padding: 32px 0 40px 0;
-}
-
-.language-punct {
-    color: #5B5B5B;
-    background: #f9f9fa00;
-    border: none;
 }
 
 .payment {

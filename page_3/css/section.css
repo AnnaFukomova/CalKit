@@ -1,8 +1,8 @@
-@import url(../page_3/css/media.css);
+@import url(../css/media.css);
 
 .breadcrumbs {
     float: right;
-    padding-left: 6vw;
+    padding-left: 10%;
 }
 
 .section-container {

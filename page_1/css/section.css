@@ -1,4 +1,4 @@
-@import url(../page_2/css/media.css);
+@import url(../css/media.css);
 
 /* header, main information */
 
@@ -96,7 +96,7 @@
 }
 
 .bg-light-gradient {
-    background-image: url(../img/3-business/3-business-fon.svg);
+    background-image: url(../../include/img/gradient-fon.svg);
 }
 
 .benefits-block { 
