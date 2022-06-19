@@ -96,7 +96,7 @@
 }
 
 .bg-light-gradient {
-    background-image: url(../../include/img/gradient-fon.svg);
+    background-image: url(../../include/img/gradient-fon.png);
 }
 
 .benefits-block { 
@@ -260,8 +260,8 @@
 }
 
 .pfa-info__img {
-    padding: 98px 0;
-    /* padding-right: 45px; */
+    padding: 120px 0;
+    padding-right: 5%;
 }
 
 /* Ready? (Готовы?) */
@@ -271,8 +271,9 @@
 }
 
 .ready-back__fon {
-    background-image: url("../img/8-ready/8-ready-fon.png");
-    padding: 9% 0;
+    background-position: center;
+    background-image: url("../../page_1/img/8-ready/ready-fon.png");
+    padding: 10% 0;
 }
 
 .section-ready__heading {
@@ -294,11 +295,8 @@
 }
 
 .order-back__fon {
+    background-position: bottom;
     background-image: url(../img/9-order/order-fon.png);
-}
-
-.order-container {
-    justify-content: space-around;
 }
 
 .order-info {

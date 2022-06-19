@@ -11,6 +11,8 @@
 	.container {
 		width: 1140px;
 	}
+
+	
 }
 
 @media screen and (max-width: 1199px) {
@@ -22,6 +24,10 @@
 		width: 65%;
 		justify-content: space-between;
 	}
+	
+	/* .footer-top_container {
+		width: 50%;
+	} */
 }
 
 @media screen and (max-width: 575px) {

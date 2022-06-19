@@ -70,7 +70,6 @@ input[type="search"]::placeholder {
 
 .knowage-paragraf {
     font-style: normal;
-    text-decoration-line: underline;
     padding-bottom: 18px;
 }
 
@@ -86,7 +85,7 @@ input[type="search"]::placeholder {
     font-style: normal;
     padding: 6px 0;
     position: absolute;
-    bottom: 56px;
+    bottom: 40px;
 }
 
 /* .examp-calc__fon {

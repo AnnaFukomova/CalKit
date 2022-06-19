@@ -1,6 +1,7 @@
 @import url(../css/media.css);
 
 .pricing-fon {
+    background-position: 20px 210px;
     background-image: url(../img/price-fon.png)
 }
 
@@ -190,10 +191,6 @@
 
 .pricing-block__element > img {
     padding-left: 5px;
-}
-
-.pricing-block__element:last-child {
-    border-bottom: none;
 }
 
 .pfa-info__img {

@@ -1,5 +1,5 @@
 footer {
-    padding: 24px 0;
+    padding: 30px 0;
 }
 
 .footer-top {
@@ -10,8 +10,8 @@ footer {
 }
 
 .footer-top_container {
-    width: 75%;
-    padding: 24px 0;
+    width: 45%;
+    padding: 30px 0 25px;
     margin: auto;
 }
 
@@ -22,21 +22,13 @@ footer {
     cursor: pointer;
 }
 
-.footer-lower__img {
-    padding-left: 1.4vw;
-}
-
-.footer-lower__img:first-child {
-    padding-left: 0;
-}
-
 .footer-lower_copyright {
     font-weight: 500;
     font-size: 15px;
     line-height: 24px;
     text-align: center;
     color: #5B5B5B;
-   padding-top: 25px;
+    padding-top: 30px;
 }
 
 .payment {
