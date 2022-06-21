@@ -1,4 +1,4 @@
-var qestionContainers;
+let qestionContainers;
 function initDrawers() {
 	// Получение содержащих элементов
 	qestionContainers = document.querySelectorAll(".qestionContainer");
