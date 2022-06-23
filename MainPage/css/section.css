@@ -264,6 +264,16 @@
     padding-right: 5%;
 }
 
+/* review (Отзывы) */
+
+.section-review {
+    padding: 140px 0;
+}
+
+.review-title {
+    padding-bottom: 78px;
+}
+
 /* Ready? (Готовы?) */
 
 .section-ready {

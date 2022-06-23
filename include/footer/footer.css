@@ -10,7 +10,7 @@ footer {
 }
 
 .footer-top_container {
-    width: 45%;
+    width: 50%;
     padding: 30px 0 25px;
     margin: auto;
 }
@@ -18,8 +18,11 @@ footer {
 .footer-top_link {
     font-style: normal;
     font-weight: normal;
-    /* padding-right: 2%; */
     cursor: pointer;
+}
+
+.footer-top_link:hover {
+    color: #4419EF;
 }
 
 .footer-lower_copyright {

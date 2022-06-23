@@ -1,39 +1,4 @@
-
 @import url(../css/style.css);
-
-/* Обобщающие стили  */
-
-html {
-    font-family: 'Inter';
-    background-color: #F9F9FA;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-   
-footer {
-    margin-top: auto;
-}
-
-.container {
-    max-width: 1440px;
-    min-width: 960px;
-    margin: 0 auto;
-    padding: 0;
-}
-
-.back-transform {
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-}
-
-menu li {
-    list-style: none;
-}
 
 /* flex */
 
@@ -60,8 +25,121 @@ menu li {
     justify-content: flex-start;
 }
 
-/* cursor */
-
-a, button, select {
-    cursor: pointer;
+.main-header {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 66px;
+    line-height: 74px;
 }
+
+.colored-button {
+    color: #160E34;
+    background: #FBC401;
+    border-radius: 12px;
+    border: none;
+}
+
+.btn {
+    padding: 14px 32px;  
+}
+
+.colored-button {
+    font-size: 17px;
+    line-height: 26px;
+    color: #160E34;
+    background: #FBC401;
+    border-radius: 12px;
+    border: none;
+}
+
+.example-black, 
+.benefits-block {
+    border-radius: 24px;
+}
+
+.less-text {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.thicker-text {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 54px;
+}
+
+.simple-text {
+    font-size: 17px;
+    line-height: 26px;
+} 
+
+.ExtraBold-bigText__header {
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 60px;
+}
+
+.big-header {
+    font-size: 48px;
+    line-height: 54px;
+}
+
+.midle-text__heading {
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.SemiBold-title {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.regular-text {
+    font-size: 17px;
+    line-height: 18px;
+}
+
+.Normal-text__title {
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.SemiBold-narrow {
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.small-text {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.dark-back {
+    background-color: #131126;
+}
+
+/* thickness */
+
+
+.Normal-text {
+    font-weight: 400;
+}
+
+.Medium-text {
+    font-weight: 500;
+}
+
+.SemiBold-text__Middle {
+    font-weight: 600; 
+}
+
+.Bold-text {
+    font-weight: 700;
+}
+
+
+
+
+
+
+

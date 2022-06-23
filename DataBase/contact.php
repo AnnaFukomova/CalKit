@@ -1,3 +1,18 @@
+<?php
+if (!empty($_POST)) {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
+    $today = date("F j, Y, g:i a");
+
+    $file = $_SERVER['DOCUMENT_ROOT'] . '/dataBase/leads.csv';
+    $tofile = "$name; $email; $message; $today\n";
+    $bom = "\xEF\xBB\xBF";
+
+    @file_put_contents($file, $bom . $tofile . file_get_contents($file));
+}
+    
+?>
 <!doctype html>
 <html lang="en">
     <head>
@@ -39,7 +54,6 @@
             <header>
                 <div class="header-container space-between__property">
                     <a href="index.html"><img class="" src="../include/header/img/1-logo_light.svg" alt="Logo"></a>
-
                     <menu class="nav-container flex">
                         <li><a class="header-link" href="../index.html">Home</a></li>
                         <li><a class="header-link" href="../FaqMain/faq.html">Knowledge Base</a></li>
@@ -55,11 +69,11 @@
                             <h3>Let's get started!</h3>
                             <p class="feedback-text">Contact us to create your own calculator!</p>
                         </div>
-                        <input class="form-element" type="text" placeholder="Your name" required>
-                        <input class="form-element" type="email" placeholder="Your email" required>
-                       <textarea  class="form-element" placeholder="Enter your message..."  required></textarea>                        
+                        <input class="form-element" type="text" id="name" name="name" placeholder="Your name" required>
+                        <input class="form-element" type="email" id="email" name="email" placeholder="Your email" required>
+                        <textarea  class="form-element" id="message" name="message" placeholder="Enter your message..."  required></textarea>                        
                         <p class="feedback-text сentral-text">PleaseBy signing up, you acknowledge that you have read and agree to the <a class="feedback-link" href="#">User Agreement</a> and <a class="feedback-link" href="#">Privacy Policy</a>.</p>
-                        <button type="submit" name="submit" id="contact-submit">Submit</button>
+                        <button type="submit" id="contact-submit">Submit</button>
                     </form>
                     
                 </div>

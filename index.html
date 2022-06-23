@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width">
         <link rel="shortcut icon" href="include/img/logo.svg">
         <meta name="description" content="Calculators & Forms To Make Your Business Thrive! Create them yourself in 10 minutes — no programming skills needed. And, it’s free!" />
-        <meta name="keywords" content="Choose from dozens, calKit-Benefits,calKit-Price, calKit, calkit, ,calKit-Knowledge Base, calKit-Feedback" />
+        <meta name="keywords" content="Choose from dozens, calKit-Benefits,calKit-Price, calKit, calkit, calKit-Knowledge Base, calKit-Feedback" />
 
         <!-- fonts CSS -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,7 +16,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
         <!-- style CSS -->        
-        <link rel="stylesheet" href="MainPage/css/section.css">        
+        <link rel="stylesheet" href="MainPage/css/section.css">   
+        <link rel="stylesheet" href="MainPage/css/slider.css">            
         <link rel="stylesheet" href="./include/scroll/scrolTop.css">
         <link rel="stylesheet" href="css/template.css">
         <link rel="stylesheet" href="css/loader.css">       
@@ -26,7 +27,7 @@
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         
-        <title>CalKit - main</title>
+        <title>CalKit Мain </title>
     </head>
     <body>
         <div class="mask">
@@ -38,17 +39,14 @@
         <div class="back-transform dark-back__main">
             <header>
                 <div class="header-container space-between__property">
-                    <a href="index.html"><img class="" src="include/header/img/1-logo_light.svg" alt="Logo"></a>
+                    <a href="index.html"><img src="include/header/img/1-logo_light.svg" alt="Logo"></a>
 
                     <menu class="nav-container flex">
-                        <!-- <li><a class="header-link">Reviews</a></li> -->           
-                        <li><a class="header-link" href="#benefits">Benefits</a></li>
-                        <li><a class="header-link" href="#examples">Examples</a></li>
-                        <li><a class="header-link" href="PricingPlans/price.html">Price</a></li>   
+                        <li><a class="header-link" href="index.html">Home</a></li>     
+                        <li><a class="header-link" href="PricingPlans/price.html">Price</a></li>     
+                        <li><a class="header-link" href="AffiliateProgram/affiliateProgram.html">Affiliate Program</a></li>
                         <li><a class="header-link" href="FaqMain/faq.html">Knowledge Base</a></li>
                         <li><a class="header-link" href="feedback/contact.html">Feedback</a></li>
-                        <li><a class="header-link" href="AffiliateProgram/AffiliateProgram.html">Affiliate Program</a></li>
-             
                     </menu>
                 </div>
             </header>
@@ -122,7 +120,7 @@
     <section class="section-benefits section-center">
         <div class="back-transform bg-light-gradient">
             <div class="container">   
-                <h2 class="benefits-header сentral-text thicker-text text-color__bark" id="benefits">Benefits For Your Business</h2>
+                <h2 class="benefits-header сentral-text thicker-text text-color__bark">Benefits For Your Business</h2>
                 <div class="section-benefits section-center flex" style="padding-bottom: 6.75vw;">
                     <div class="benefits-block">
                         <img class="benefits-bloc__img" src="MainPage/img/4-BenefitsForBusiness/4.1-SEO.svg" alt="SEO">
@@ -156,7 +154,7 @@
         <div class="back-transform examp-back__fon">
             <div class="container">
                     <div class="examp-back">
-                        <h2 class="examp-header thicker-text  light-text" id="examples">Examples</h2> 
+                        <h2 class="examp-header thicker-text  light-text">Examples</h2> 
                         <h3 class="examp-header__next simple-text light-text">See our calculators in action</h3>
                     </div>
                 <img class="examp-img" src="MainPage/img/4-example/4-Examples.png" alt="example">
@@ -286,7 +284,35 @@
         </div>
 
     </section>
-    
+    <section class="section-review">
+		<div class="container">                
+            <h2 class="review-title thicker-text">What People Say</h2> 
+
+            <div class="wrapper">
+                <div class="slider">
+                    <div class="slider__item">
+                        <img src="MainPage/img/img-slider/slides/01.png" alt="first review">
+                    </div>
+                    <div class="slider__item">
+                        <img src="MainPage/img/img-slider/slides/02.png" alt="second review">
+                    </div>
+                    <div class="slider__item">
+                        <img src="MainPage/img/img-slider/slides/03.png" alt="third review">
+                    </div>
+                    <div class="slider__item">
+                        <img src="MainPage/img/img-slider/slides/04.png" alt="fourth review">
+                    </div>
+                </div>
+            
+                <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+                <!-- слайдер Slick -->
+                <script src="js/slider/slick.min.js"></script>
+
+                <script src="js/slider/script.js"></script>
+            </div>
+        </div>
+    </section>
      <!-- Ready? (Готовы?) -->
     <section  class="section-ready section-center flex">
         <div class="back-transform ready-back__fon section-center flex"> 
@@ -334,9 +360,11 @@
                     <img src="include/footer/img/logo-footer__bark.svg" alt="logo">
                     <div class="footer-top_container space-between__property">
                         <a class="footer-top_link black-text simple-text" href="LisenseAgreement/LisenseAgreement.html">Agreement</a> 
-                        <a class="footer-top_link black-text simple-text" href="PricingPlans/price.html">Pricing</a> 
+                        <a class="footer-top_link black-text simple-text" href="PricingPlans/price.html">Pricing</a>
+                        <a class="footer-top_link black-text simple-text" href="#">Feedback</a>  
                         <a class="footer-top_link black-text simple-text" href="FaqMain/faq.html">Knowledge Base</a> 
                         <a class="footer-top_link black-text simple-text" href="AffiliateProgram/AffiliateProgram.html">Affiliate Program</a> 
+                        <a class="footer-top_link black-text simple-text" href="PrivacyPolicy/privacyPolicy.html">Privacy Policy</a>
                     </div>
                 </div>
                 <p class="footer-lower_copyright">©2021 CALKit. All rights reserved.</p> 
@@ -346,7 +374,7 @@
     <a href="#" id="scroll_top" title="Upstairs"></a>
 
     <script  src="js/scroll.js"></script>
-    <script src='https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js'></script>
+    <!-- <script src='https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js'></script> -->
     
     <script  src="js/loader.js"></script>
 
