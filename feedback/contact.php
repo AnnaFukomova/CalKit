@@ -1,3 +1,18 @@
+<?php
+if (!empty($_POST)) {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
+    $today = date("F j, Y, g:i a");
+
+    $file = $_SERVER['DOCUMENT_ROOT'] . '/DataBase/leads.csv';
+    $tofile = "$name; $email; $message; $today\n";
+    $bom = "\xEF\xBB\xBF";
+
+    @file_put_contents($file, $bom . $tofile . file_get_contents($file));
+}
+    
+?>
 <!doctype html>
 <html lang="en">
     <head>
@@ -122,22 +137,5 @@
     <!-- <script src="https://kit.fontawesome.com/ed9e32c3a4.js" crossorigin="anonymous"></script> -->
 
   </body>
-  <?php
-        if (!empty($_POST)) {
-
-            $name = $_POST['name'];
-            $email = $_POST['email'];
-            $message = $_POST['message'];
-            $today = date("F j, Y, g:i a");
-
-            $file = $_SERVER['DOCUMENT_ROOT'] . '/dataBase/leads.csv';
-            $tofile = "$name; $email; $message; $today\n";
-            $bom = "\xEF\xBB\xBF";
-
-            @file_put_contents($file, $bom . $tofile . file_get_contents($file));
-        }
-        
-    ?>
-
 </html>
    
