@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./MainPage/css/section.css">   
+    <link rel="stylesheet" href="./include/reset.css">
+
+    
+    <title>Document</title>
+
+    <style>
+        .container {
+            width: 100%;
+            max-width: 1180px;
+            margin: 0 auto;
+        }
+        .flex-wrapper__adaptiveColumn {
+            display: flex;
+            flex-flow: column nowrap;
+        }
+        /* .advantages-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        } */
+        .space-between__property {
+            display: flex;
+            justify-content: space-between;
+        }
+        .flex-wrapper__wrap {
+            /* display: flex; */
+            flex-wrap: wrap;
+        }
+
+        .flex-item__flow {
+            flex-flow: column;
+        }
+
+        .advantage-item {            
+            max-width: 250px;        
+        } 
+        
+        /* /* @media (max-width: 490px) {
+            .advantage-item {
+                margin: 5px; 
+            }
+        } */
+        /* @media (max-width: 30px) {
+            .advantage-item {
+                margin: 5px; 
+            }
+        }
+        .advantage-item {
+            margin: 5px 15px;
+        } */
+        
+    </style>
+</head>
+<body>
+    <section class="container flex-wrapper__adaptiveColumn">
+        <div class="flex-wrapper__wrap space-between__property">
+            <div class="advantage-item flex-wrapper__wrap">
+                <img class="advantage-bloc__img" src="MainPage/img/2-advantages/3.1-fast-delivery.svg" alt="Fast">
+                <h3 class="advantage-bloc__header сentral-text less-text text-color__bark">Fast</h3>
+                <p class="advantage-bloc__text сentral-text simple-text">
+                    Choose from dozens of customizable, ready-to-use templates by 
+                    industry or build one from scratch.
+                </p></div>
+            <div class="advantage-item flex-wrapper__wrap">
+                <img class="advantage-bloc__img" src="MainPage/img/2-advantages/3.2-Satisfied.svg" alt="Satisfied">
+                <h3 class="advantage-bloc__header сentral-text less-text  text-color__bark">Convenient</h3>
+                <p class="advantage-bloc__text сentral-text simple-text">With the visual editor, quickly add sliders, 
+                    lists, checkboxes. Collect contacts and accept payments – everything is at your fingertips!
+                </p>
+            </div>
+            <div class="advantage-item flex-wrapper__wrap">
+                <img class="advantage-bloc__img" src="MainPage/img/2-advantages/3.3-effective.svg" alt="Effective">
+                <h3 class="advantage-bloc__header сentral-text less-text text-color__bark">Effective</h3>
+                <p class="advantage-bloc__text сentral-text simple-text">
+                    Improve SEO performance of your website, get email and SMS notifications about orders, send messages to clients.
+                </p>
+            </div>
+            <div class="advantage-item flex-wrapper__wrap">
+                <img class="advantage-bloc__img" src="MainPage/img/2-advantages/3.4-Multi-purpose.svg" alt="Multi-purpose">
+                <h3 class="advantage-bloc__header сentral-text less-text text-color__bark">Multi-purpose</h3>
+                <p class="advantage-bloc__text сentral-text simple-text">
+                    Use a calculator on your website, or share its link via messengers, social media and email.
+                </p>
+            </div>            
+        </div>
+    </section>
+</body>
+</html>

@@ -1,9 +1,66 @@
-@import url(../css/style.css);
+/* Обобщающие стили  */
+
+html {
+    font-family: 'Inter';
+    background-color: #F9F9FA;
+}
+
+body {
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+}
+
+img { 
+    pointer-events: none;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.back-transform {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+menu li {
+    list-style: none;
+}
+
+/* cursor */
+
+a, button, select {
+    cursor: pointer;
+}
 
 /* flex */
 
 .flex {
     display: flex;
+}
+
+.flex-wrapper__adaptiveColumn {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+
+.flex-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item__flow {
+    flex-flow: column;
 }
 
 .space-between__property {
@@ -18,11 +75,6 @@
 
 .сentral-text {
     text-align: center;
-}
-
-.flex-start__property {
-    display: flex;
-    justify-content: flex-start;
 }
 
 .main-header {
@@ -47,6 +99,7 @@
     font-size: 17px;
     line-height: 26px;
     color: #160E34;
+    font-weight:600;
     background: #FBC401;
     border-radius: 12px;
     border: none;
@@ -137,9 +190,33 @@
     font-weight: 700;
 }
 
+/* Color */
 
 
+.light-text {
+    color: #FFFFFF;
+}
 
+.grey-colorText {
+    color: #5B5B5B;
+}
 
+.accent-color {
+    color: #FBC401;
+}
 
+.text__accent {
+    color: #4419EF;
+}
 
+.black-text {
+    color: #333333;
+}
+
+.text-color__bark {
+    color: #111111;
+}
+
+.demiBlack {
+    color: #160E34;
+}

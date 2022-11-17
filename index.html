@@ -5,29 +5,30 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-1920">
         <link rel="shortcut icon" href="include/img/logo.svg">
-        <meta name="description" content="Calculators & Forms To Make Your Business Thrive! Create them yourself in 10 minutes — no programming skills needed. And, it’s free!" />
-        <meta name="keywords" content="Choose from dozens, calKit-Benefits,calKit-Price, calKit, calkit, calKit-Knowledge Base, calKit-Feedback" />
-
+        
         <!-- fonts CSS -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
         <!-- style CSS -->        
+        <link rel="stylesheet" href="css/style.css">       
+        <link rel="stylesheet" href="css/loader.css">       
+        <link rel="stylesheet" href="include/reset.css">         
+        <link rel="stylesheet" href="include/header/header.css">
+        <link rel="stylesheet" href="include/footer/footer.css">
         <link rel="stylesheet" href="MainPage/css/section.css">   
         <link rel="stylesheet" href="MainPage/css/slider.css">            
         <link rel="stylesheet" href="./include/scroll/scrolTop.css">
-        <link rel="stylesheet" href="css/template.css">
-        <link rel="stylesheet" href="css/loader.css">       
-        <link rel="stylesheet" href="include/reset.css">
-        <link rel="stylesheet" href="include/header/header.css">
-        <link rel="stylesheet" href="include/footer/footer.css">
+
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         
         <title>CalKit Мain </title>
+        <meta name="description" content="Calculators & Forms To Make Your Business Thrive! Create them yourself in 10 minutes — no programming skills needed. And, it’s free!" />
+
     </head>
     <body>
         <div class="mask">
@@ -39,14 +40,14 @@
         <div class="back-transform dark-back__main">
             <header>
                 <div class="header-container space-between__property">
-                    <a href="index.html"><img src="include/header/img/1-logo_light.svg" alt="Logo"></a>
+                    <a href="index.html"><img src="include/header/img/1-logo_light.svg" loading="lazy" alt="Logo"></a>
 
                     <menu class="nav-container flex">
                         <li><a class="header-link" href="index.html">Home</a></li>     
                         <li><a class="header-link" href="PricingPlans/price.html">Price</a></li>     
                         <li><a class="header-link" href="AffiliateProgram/affiliateProgram.html">Affiliate Program</a></li>
                         <li><a class="header-link" href="FaqMain/faq.html">Knowledge Base</a></li>
-                        <li><a class="header-link" href="feedback/contact.html">Feedback</a></li>
+                        <li><a class="header-link" href="Feedback/contact.php">Feedback</a></li>
                     </menu>
                 </div>
             </header>
@@ -67,7 +68,7 @@
                             </p>
                         </div>
                         <div class="introduction-btn_black section-center">
-                            <a class="introduction-btn btn colored-button simple-text" href="PricingPlans/price.html">Start Now</a>
+                            <a class="btn introduction-btn colored-button simple-text" href="PricingPlans/price.html">Start Now</a>
                         </div>
                         <div class="example-black">
                             <img class="example-black__img" src="MainPage/img/1-main_informaion/2-example_img.png" alt="example_img">
@@ -77,41 +78,39 @@
             </section>
         </div>
     <!-- advantages (Преимущества) -->
-    <section class="advantages-section">
-        <div class="container">   
-            <div class="advantages-container space-between__property">
-                <div class="advantage-block section-center">
-                    <img class="advantage-bloc__img" src="MainPage/img/2-advantages/3.1-fast-delivery.svg" alt="Fast">
-                    <h3 class="advantage-bloc__header сentral-text headline-less text-color__bark">Fast</h3>
-                    <p class="advantage-bloc__text simple-text">
-                        Choose from dozens of customizable, ready-to-use templates by 
-                        industry or build one from scratch.
-                    </p>
-                </div>
-                
-                <div class="advantage-block">
-                    <img class="advantage-bloc__img" src="MainPage/img/2-advantages/3.2-Satisfied.svg" alt="Satisfied">
-                    <h3 class="advantage-bloc__header сentral-text headline-less  text-color__bark">Convenient</h3>
-                    <p class="advantage-bloc__text simple-text">With the visual editor, quickly add sliders, 
-                        lists, checkboxes. Collect contacts and accept payments – everything is at your fingertips!
-                    </p>
-                </div>
+    <section class="advantages-section container flex-wrapper__adaptiveColum">
+        <div class="advantages-container space-between__property flex-wrapper__wrap">
+            <div class="advantage-block flex-item__flow section-center">
+                <img class="advantage-bloc__img" src="MainPage/img/2-advantages/3.1-fast-delivery.svg" alt="Fast">
+                <h3 class="advantage-bloc__header сentral-text less-text text-color__bark">Fast</h3>
+                <p class="advantage-bloc__text сentral-text simple-text">
+                    Choose from dozens of customizable, ready-to-use templates by 
+                    industry or build one from scratch.
+                </p>
+            </div>
+            
+            <div class="advantage-block flex-item__flow">
+                <img class="advantage-bloc__img" src="MainPage/img/2-advantages/3.2-Satisfied.svg" alt="Satisfied">
+                <h3 class="advantage-bloc__header сentral-text less-text  text-color__bark">Convenient</h3>
+                <p class="advantage-bloc__text сentral-text simple-text">With the visual editor, quickly add sliders, 
+                    lists, checkboxes. Collect contacts and accept payments – everything is at your fingertips!
+                </p>
+            </div>
 
-                <div class="advantage-block">
-                    <img class="advantage-bloc__img" src="MainPage/img/2-advantages/3.3-Effective.svg" alt="Effective">
-                    <h3 class="advantage-bloc__header сentral-text headline-less text-color__bark">Effective</h3>
-                    <p class="advantage-bloc__text simple-text">
-                        Improve SEO performance of your website, get email and SMS notifications about orders, send messages to clients.
-                    </p>
-                </div>
+            <div class="advantage-block flex-item__flow">
+                <img class="advantage-bloc__img" src="MainPage/img/2-advantages/3.3-Effective.svg" alt="Effective">
+                <h3 class="advantage-bloc__header сentral-text less-text text-color__bark">Effective</h3>
+                <p class="advantage-bloc__text сentral-text simple-text">
+                    Improve SEO performance of your website, get email and SMS notifications about orders, send messages to clients.
+                </p>
+            </div>
 
-                <div class="advantage-block">
-                    <img class="advantage-bloc__img" src="MainPage/img/2-advantages/3.4-Multi-purpose.svg" alt="Multi-purpose">
-                    <h3 class="advantage-bloc__header сentral-text headline-less text-color__bark">Multi-purpose</h3>
-                    <p class="advantage-bloc__text simple-text">
-                        Use a calculator on your website, or share its link via messengers, social media and email.
-                    </p>
-                </div>
+            <div class="advantage-block flex-item__flow">
+                <img class="advantage-bloc__img" src="MainPage/img/2-advantages/3.4-Multi-purpose.svg" alt="Multi-purpose">
+                <h3 class="advantage-bloc__header сentral-text less-text text-color__bark">Multi-purpose</h3>
+                <p class="advantage-bloc__text сentral-text simple-text">
+                    Use a calculator on your website, or share its link via messengers, social media and email.
+                </p>
             </div>
         </div>
     </section>
@@ -124,14 +123,14 @@
                 <div class="section-benefits section-center flex" style="padding-bottom: 6.75vw;">
                     <div class="benefits-block">
                         <img class="benefits-bloc__img" src="MainPage/img/4-BenefitsForBusiness/4.1-SEO.svg" alt="SEO">
-                        <h3 class="benefits-bloc__header headline-less text-color__bark">Better SEO Rankings</h3>
+                        <h3 class="benefits-bloc__header less-text text-color__bark">Better SEO Rankings</h3>
                         <p class="benefits-bloc__text simple-text">
                             Improve your budget by targeting low-frequency queries, obtain user behavior indicators for better outcomes and rank higher in search results.</p>
                     </div>
 
                     <div class="benefits-block">
                         <img class="benefits-bloc__img" src="MainPage/img/4-BenefitsForBusiness/4.2-Satisfied.svg" alt="Satisfied">
-                        <h3 class="benefits-bloc__header headline-less text-color__bark">Satisfied Customers</h3>
+                        <h3 class="benefits-bloc__header less-text text-color__bark">Satisfied Customers</h3>
                         <p class="benefits-bloc__text simple-text">
                             Prompt price calculations for your customers. Instant invoicing via SMS or email means convenience for them.
                         </p>
@@ -139,7 +138,7 @@
 
                     <div class="benefits-block">
                         <img class="benefits-bloc__img" src="MainPage/img/4-BenefitsForBusiness/4.3-Competition.svg" alt="Competition">
-                        <h3 class="benefits-bloc__header headline-less text-color__bark">Gain an Edge Over the Competition</h3>
+                        <h3 class="benefits-bloc__header less-text text-color__bark">Gain an Edge Over the Competition</h3>
                         <p class="benefits-bloc__text simple-text">
                             Sell faster than your competitors by getting sales-ready leads, you won’t waste time on responding to inquiries from users with little interest in your service.
                         </p>
@@ -170,7 +169,7 @@
                 <!-- 1 block -->
                 <div class="makes-element flex">
 
-                    <h5 class="makes-element__heading headline-less Bold-text">Change Design</h5> 
+                    <h5 class="makes-element__heading less-text Bold-text">Change Design</h5> 
 
                     <div class="makes-element-blockConainer flex">
                         <div class="makes-element__black flex">
@@ -291,16 +290,16 @@
             <div class="wrapper">
                 <div class="slider">
                     <div class="slider__item">
-                        <img src="MainPage/img/img-slider/slides/01.png" alt="first review">
+                        <img src="MainPage/img/img-slider/slides/01.png" loading="lazy" alt="first review">
                     </div>
                     <div class="slider__item">
-                        <img src="MainPage/img/img-slider/slides/02.png" alt="second review">
+                        <img src="MainPage/img/img-slider/slides/02.png" loading="lazy" alt="second review">
                     </div>
                     <div class="slider__item">
-                        <img src="MainPage/img/img-slider/slides/03.png" alt="third review">
+                        <img src="MainPage/img/img-slider/slides/03.png" loading="lazy" alt="third review">
                     </div>
                     <div class="slider__item">
-                        <img src="MainPage/img/img-slider/slides/04.png" alt="fourth review">
+                        <img src="MainPage/img/img-slider/slides/04.png" loading="lazy" alt="fourth review">
                     </div>
                 </div>
             
@@ -323,7 +322,7 @@
                     by setting up the fields to fit your business' and website audience's needs!
                 </p>
                 <div class="section-center flex">
-                    <a class="introduction-btn simple-text btn colored-button" href="PricingPlans/price.html">Start Now</a>
+                    <a class="btn introduction-btn simple-text colored-button" href="PricingPlans/price.html">Start Now</a>
                 </div>
             </div>
         </div>
@@ -357,11 +356,11 @@
         <footer>
             <div class="container">
                 <div class="footer-top content-center">
-                    <img src="include/footer/img/logo-footer__bark.svg" alt="logo">
+                    <a href="index.html"><img src="include/footer/img/logo-footer__bark.svg" loading="lazy" alt="logo"></a>
                     <div class="footer-top_container space-between__property">
                         <a class="footer-top_link black-text simple-text" href="LisenseAgreement/LisenseAgreement.html">Agreement</a> 
                         <a class="footer-top_link black-text simple-text" href="PricingPlans/price.html">Pricing</a>
-                        <a class="footer-top_link black-text simple-text" href="#">Feedback</a>  
+                        <a class="footer-top_link black-text simple-text" href="Feedback/contact.php">Feedback</a>  
                         <a class="footer-top_link black-text simple-text" href="FaqMain/faq.html">Knowledge Base</a> 
                         <a class="footer-top_link black-text simple-text" href="AffiliateProgram/AffiliateProgram.html">Affiliate Program</a> 
                         <a class="footer-top_link black-text simple-text" href="PrivacyPolicy/privacyPolicy.html">Privacy Policy</a>
@@ -375,7 +374,6 @@
 
     <script  src="js/scroll.js"></script>
     <!-- <script src='https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js'></script> -->
-    
     <script  src="js/loader.js"></script>
 
   </body>

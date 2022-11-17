@@ -5,11 +5,16 @@ if (!empty($_POST)) {
     $message = $_POST['message'];
     $today = date("F j, Y, g:i a");
 
-    $file = $_SERVER['DOCUMENT_ROOT'] . '/DataBase/leads.csv';
+    $file = $_SERVER['DOCUMENT_ROOT'] . '/dataBase/leads.csv';
     $tofile = "$name; $email; $message; $today\n";
     $bom = "\xEF\xBB\xBF";
 
     @file_put_contents($file, $bom . $tofile . file_get_contents($file));
+    ?>
+     <script type="text/javascript">
+        window.location = "https://calkit.space/index.html";
+    </script>
+    <?php
 }
     
 ?>
@@ -23,6 +28,7 @@ if (!empty($_POST)) {
         <meta name="viewport" content="width=device-width">
         <link rel="shortcut icon" href="../include/img/logo.svg">
         <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <meta name="description" content="Calculators & Forms To Make Your Business Thrive! Get in touch with us." />
 
         <!-- fonts CSS -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,7 +36,6 @@ if (!empty($_POST)) {
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
         <!-- style CSS -->
-        <link rel="stylesheet" href="../css/template.css">
         <link rel="stylesheet" href="../include/reset.css">
         <link rel="stylesheet" href="../css/loader.css">
         <link rel="stylesheet" href="../PricingPlans/css/section.css">
@@ -41,7 +46,7 @@ if (!empty($_POST)) {
         <link rel="stylesheet" href=".././include/scroll/scrolTop.css">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
-        <title>Get in touch with us</title>
+        <title>CalKit-Feedback Form</title>
     </head>
     <body>
         <div class="mask">
@@ -53,12 +58,13 @@ if (!empty($_POST)) {
         <div class="form-wrap__fon back-transform">
             <header>
                 <div class="header-container space-between__property">
-                    <a href="index.html"><img class="" src="../include/header/img/1-logo_light.svg" alt="Logo"></a>
+                    <a href="../index.html"><img class="" src="../include/header/img/1-logo_light.svg" loading="lazy" alt="Logo"></a>
                     <menu class="nav-container flex">
-                        <li><a class="header-link" href="../index.html">Home</a></li>
+                        <li><a class="header-link" href="../index.html">Home</a></li>     
+                        <li><a class="header-link" href="../PricingPlans/price.html">Price</a></li>     
+                        <li><a class="header-link" href="../AffiliateProgram/affiliateProgram.html">Affiliate Program</a></li>
                         <li><a class="header-link" href="../FaqMain/faq.html">Knowledge Base</a></li>
-                        <li><a class="header-link" href="../PricingPlans/price.html">Price</a></li>
-                        <li><a class="header-link" href="#">Affiliate Program</a></li>
+                        <li><a class="header-link" href="../Feedback/contact.php">Feedback</a></li>
                     </menu>
                 </div>
             </header>
@@ -69,10 +75,11 @@ if (!empty($_POST)) {
                             <h3>Let's get started!</h3>
                             <p class="feedback-text">Contact us to create your own calculator!</p>
                         </div>
-                        <input class="form-element" type="text" id="name" name="name" placeholder="Your name" required>
-                        <input class="form-element" type="email" id="email" name="email" placeholder="Your email" required>
-                        <textarea  class="form-element" id="message" name="message" placeholder="Enter your message..."  required></textarea>                        
-                        <p class="feedback-text сentral-text">PleaseBy signing up, you acknowledge that you have read and agree to the <a class="feedback-link" href="#">User Agreement</a> and <a class="feedback-link" href="#">Privacy Policy</a>.</p>
+                        <input class="form-element" type="text" id="name" name="name" placeholder="Your name" maxlength="40" required>
+                        <input class="form-element" type="email" id="email" name="email" placeholder="Your email" maxlength="40" required>
+                        <textarea  class="form-element" id="message" name="message" placeholder="Enter your message..." maxlength="500" required></textarea>
+                        <p class="feedback-text сentral-text">PleaseBy signing up, you acknowledge that you have read and agree to the 
+                        <a class="feedback-link" href="../LisenseAgreement/LisenseAgreement.html">Lisense Agreement</a> and <a class="feedback-link" href="../PrivacyPolicy/privacyPolicy.html">Privacy Policy</a>.</p>
                         <button type="submit" id="contact-submit">Submit</button>
                     </form>
                     
@@ -115,12 +122,14 @@ if (!empty($_POST)) {
     <footer>
         <div class="container">
             <div class="footer-top content-center">
-                <img src="../include/footer/img/logo-footer__bark.svg" alt="logo">
+                <a href="../index.html"><img src="../include/footer/img/logo-footer__bark.svg" loading="lazy" alt="logo"></a>
                 <div class="footer-top_container space-between__property">
-                    <a class="footer-top_link black-text simple-text" href="../page_3/LisenseAgreement.html">Agreement</a> 
-                    <a class="footer-top_link black-text simple-text" href="../PricingPlans/price.html">Pricing</a> 
+                    <a class="footer-top_link black-text simple-text" href="../LisenseAgreement/LisenseAgreement.html">Agreement</a> 
+                    <a class="footer-top_link black-text simple-text" href="../PricingPlans/price.html">Pricing</a>
+                    <a class="footer-top_link black-text simple-text" href="../Feedback/contact.php">Feedback</a>  
                     <a class="footer-top_link black-text simple-text" href="../FaqMain/faq.html">Knowledge Base</a> 
-                    <a class="footer-top_link black-text simple-text" href="../page_7/AffiliateProgram.html">Affiliate Program</a> 
+                    <a class="footer-top_link black-text simple-text" href="../AffiliateProgram/AffiliateProgram.html">Affiliate Program</a> 
+                    <a class="footer-top_link black-text simple-text" href="../PrivacyPolicy/privacyPolicy.html">Privacy Policy</a></a> 
                 </div>
             </div>
             <p class="footer-lower_copyright">©2021 CALKit. All rights reserved.</p> 
@@ -129,6 +138,7 @@ if (!empty($_POST)) {
     
     <a href="#" id="scroll_top" title="Upstairs"></a>
 
+    
     <script  src="../js/scroll.js"></script>
     <script src='https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js'></script>
     
