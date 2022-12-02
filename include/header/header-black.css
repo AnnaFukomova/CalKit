@@ -1,12 +1,12 @@
 .header-link {
     color: #160E34;
     opacity: 0.5; 
-    padding-right: 5%;
+    padding-right: 42px;    
     font-weight: 500;
     font-size: 15px;
     line-height: 24px;
 }
 
-.header-link:last-child {
-    padding-right: 0%;
-}
+.menu > li:last-child > a {
+    padding-right: 0px;
+  }

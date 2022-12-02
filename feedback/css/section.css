@@ -1,6 +1,7 @@
 @import url(../css/media.css);
 
 .form-wrap__fon {
+  padding-top: 85px;
   background-image: url("../img/form-fon.png");
 }
 

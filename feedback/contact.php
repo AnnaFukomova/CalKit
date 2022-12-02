@@ -56,7 +56,7 @@ if (!empty($_POST)) {
         </div>
 
         <div class="form-wrap__fon back-transform">
-            <header>
+            <!-- <header>
                 <div class="header-container space-between__property">
                     <a href="../index.html"><img class="" src="../include/header/img/1-logo_light.svg" loading="lazy" alt="Logo"></a>
                     <menu class="nav-container flex">
@@ -67,6 +67,30 @@ if (!empty($_POST)) {
                         <li><a class="header-link" href="../Feedback/contact.php">Feedback</a></li>
                     </menu>
                 </div>
+            </header> -->
+            <header class="header-container space-between__property">                
+                <nav class="navbar navbar-color__dark">
+                    <div class="container">
+                        <div class="navbar__wrap">
+                            <div class="hamb">
+                                <div class="hamb__field" id="hamb">
+                                    <span class="bar"></span>
+                                    <span class="bar"></span>
+                                    <span class="bar"></span>
+                                </div>
+                            </div>
+                            <a href="../index.html"><img class="" src="../include/header/img/1-logo_light.svg" loading="lazy" alt="Logo"></a>
+                            <ul class="menu" id="menu">
+                                <li><a class="header-link" href="../index.html">Home</a></li> 
+                                <li><a class="header-link" href="../PricingPlans/price.html">Price</a></li>
+                                <li><a class="header-link" href="../AffiliateProgram/affiliateProgram.html">Affiliate Program</a></li>
+                                <li><a class="header-link" href="../FaqMain/faq.html">Knowledge Base</a></li>
+                                <li><a class="header-link" href="../Feedback/contact.php">Feedback</a></li>            
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="popup" id="popup"></div>
             </header>
             <div class="container">
                 <div class="feedback-wrap">  

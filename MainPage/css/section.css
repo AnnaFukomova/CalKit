@@ -1,14 +1,30 @@
-@import url(../css/media.css);
-
 /* header, main information */
 
-.dark-back__main {
-    background-image: url(../img/1-main_informaion/dark-back__main.png);
+.color-back__dark {
+    background-color: #131126;
 }
 
-.section-container {
-    position: relative;
+.dark-back__main {
+    background-image: url("../img/1-main_informaion/back-blur.png");
+    background-position: center -15%;
 }
+
+.space {
+    padding-top: 268px;
+    margin-bottom: 8vw;
+}
+
+.introduction-black {
+    padding-top: 76px;
+    z-index: 1; 
+}
+
+/* .section-container {
+    position: relative;
+    max-width: 1180px;
+    margin: 0 auto;
+    width: 100%; 
+}*/
 
 .text-box {
     padding-top: 18px;
@@ -23,31 +39,30 @@
     font-weight: 600;
 }
 
-.introduction-black {
-    padding-top: 76px;
-    z-index: 1; 
-}
-
 .introduction-header:first-child {
-    padding-top: 5%;
+    /* padding-top: 5%; */
 }
 
 .introduction-btn_black {
     padding-top: 24px;
-    padding-bottom: 34%;
+    /* padding-bottom: 34%; */
     display: flex;
 }
 
 .example-black {   
-    background: radial-gradient(54.78% 54.78% at 14.93% 19.5%, rgba(255, 255, 255, 0.13) 0%, rgba(192, 197, 243, 0.53) 100%);
+    max-width: 946px;
+    margin: 48px auto calc(268px * -1);
+    padding: 9px;
+    background: radial-gradient(54.78% 54.78% at 14.93% 19.5%,rgba(255,255,255,.13) 0,rgba(192,197,243,0.53) 100%);
     backdrop-filter: blur(13.5914px);
-    padding: 1%;
-    margin: 0;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+    border-radius: 24px;
+    border: 1px solid;
+    border-image-source: radial-gradient(91.63% 60.58% at 17.26% 5.28%,rgba(255,255,255,.47) 0,rgba(255,255,255,.0001) 100%);
+}
+
+.example-black__img {
+    border-radius: 15px;
+    width: 100%;
 }
 
 /* advantages (Приемущества) */
@@ -61,32 +76,63 @@
     /* margin-bottom: 6.3vw; */
 }
 
-.example-black__img {
-    border-radius: 15px;
-}
-
-.advantage-block {
-    width: 24%;
-}
-
-.advantage-bloc__img {
-    margin: auto;
-}
-
 .advantages-section {
     margin-top: 268px;
 }
+  
+.advantage-item__img {
+    display: block;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: auto;
+}
 
-.advantages-container {
+.advantage-item__header {
+    padding-top: 10px;
+}
+
+.advantages-wrapper {
     padding-top: 140px;
     padding-bottom: 134px;
 }
 
-.advantage-bloc__header {
-    padding: 5% 0 6%;
+.advantage-item {
+    max-width: 255px;
+    text-align: center;
+    padding: 120px 12px 0;
+    margin: 0 13px;
 }
 
-.advantage-bloc__text, .benefits-bloc__text, .footer-top_link {
+.advantage-icon__fast {
+    background-image: url(../img/2-advantages/3.1-fast-delivery.svg);
+    background-repeat: no-repeat;
+    background-position: center 0;
+}
+
+.advantage-icon__satisfied {
+    background-image: url(../img/2-advantages/3.2-Satisfied.svg);
+    background-repeat: no-repeat;
+    background-position: center 0; 
+
+}
+
+.advantage-icon__effective {
+    background-image: url(../img/2-advantages/3.3-effective.svg);
+    background-repeat: no-repeat;
+    background-position: center 0; 
+}
+
+.advantage-icon__purpose {
+    background-image: url(../img/2-advantages/3.4-Multi-purpose.svg); 
+    background-repeat: no-repeat;
+    background-position: center 0;
+}
+
+.advantage-item__text {
+    margin-top: 12px;
+}
+
+.advantage-item__text, .benefits-bloc__text, .footer-top_link {
     color: #333333;
 }
 
@@ -100,16 +146,40 @@
 }
 
 .benefits-block { 
-    margin-left: 1vw;
-    padding: 1.95%;    
     background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.65) 100%);
-    opacity: 0.9;
     backdrop-filter: blur(13.5914px); 
-    width: 24%; 
+    position: relative;
+    margin: 0 12px;
+    opacity: 0.9;
+    border-radius: 24px;
+    padding: 174px 30px 69px;
 }
 
 .benefits-block:first-child { 
     margin-left: 0;
+}
+
+.benefits-bloc__img {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: 30px;
+    top: 36px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90px;
+}
+
+.icon-ranking {
+    background-image: url(../img/4-BenefitsForBusiness/4.1-SEO.svg)
+}
+
+.icon-satisfied {
+    background-image: url(../img/4-BenefitsForBusiness/4.2-Satisfied.svg)
+}
+
+.icon-competition {
+    background-image: url(../img/4-BenefitsForBusiness/4.3-Competition.svg)
 }
 
 .benefits-header {
@@ -117,7 +187,7 @@
 }
 
 .benefits-bloc__header {
-    padding: 2.35vw 0 0.6vw;
+    padding-bottom: 12px;
 }
 
 /* Example (Пример)*/
@@ -167,8 +237,6 @@
     margin-top: 2.9vw; 
     /* margin-bottom: 11.78vw; */
 }
-
-
 
 /* Makes It Easy To...(позволяет легко...)*/
 .makes-element__black {
@@ -322,4 +390,44 @@
     font-style: normal;
     font-weight: normal;
     opacity: 0.8;
+}
+
+@media (max-width: 1200px) {
+    .advantage-item {
+        flex-basis: calc(50% - 26px);
+        margin-bottom: 80px;
+    }
+
+    .benefits-block {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 1000px) {
+    body {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .example-black {
+        max-width: calc(100%+32px);
+    }
+
+    .example-black__img {
+        border-radius: 1.7vw;
+    } 
+
+    .section-benefits {
+        flex-wrap: wrap;
+    }
+    
+    .benefits-block {
+        flex-basis: 100%;
+        max-width: 780px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    
 }
