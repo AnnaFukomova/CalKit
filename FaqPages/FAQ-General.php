@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width">
+        <link rel="shortcut icon" href="../include/img/logo.svg">
+        <meta name="description" content="In the «General» category of our CalKit Knowledge Base, you will find answers to the most common questions about CalKit.pro calculator and form builder. The section features 9 step-by-step guides."/>
+    
+        <!-- fonts CSS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+        <!-- style CSS -->
+        <link rel="stylesheet" href="../include/reset.css">
+        <link rel="stylesheet" href="../css/loader.css">
+        <link rel="stylesheet" href="../FaqPages/css/section.css">
+        <link rel="stylesheet" href="../FaqPages/css/show-text__style.css">
+        <link rel="stylesheet" href="../include/header/header.css">
+        <link rel="stylesheet" href="../include/footer/footer.css">
+  
+        <link rel="stylesheet" href=".././include/scroll/scrolTop.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+
+        <title>CalKit-FAQ General</title>
+    </head>
+    <body>
+        <div class="mask">
+            <div class="loader-wrap">
+                <div class="loader"></div>
+            </div>
+        </div>
+
+        <section>
+            <div class="section-fon">
+                <header class="header-min">
+                    <div class="flex header-container__min">
+                        <div class="flex header-container-min__link"> 
+                            <img class="link-arrow" src="../FaqPages/img/arrow-light.svg" loading="lazy" alt="arrow"><a class="header-link light-text" href="../index.php">Back to CalKit</a>
+                        </div>
+                    </div>
+                </header>
+
+                <div class="container">
+                    <h1 class="main-heading ExtraBold-bigText__header light-text">CalKit Knowledge Base</h1>
+                </div>    
+            </div>
+            
+            <section class="section-informationMaterials">
+                <div class="section-container flex">
+                    <aside class="informate-aside">
+                        <h3 class="information-heading Bold-text less-text">Categories</h3>
+                        <a class="information-link simple-text Normal-text" href="../FaqPages/FAQ-Pricing.html">Pricing</a>
+                        <a class="information-link simple-text Normal-text" href="../FaqPages/FAQ-Formulas.html">Formulas</a>
+                        <a class="information-link simple-text Normal-text" href="../FaqPages/FAQ-Interface.html">Interface</a>
+                        <a class="information-link simple-text Normal-text" href="../FaqPages/FAQ-Widgets.html">Widgets</a>
+                        <a class="information-link simple-text Normal-text" href="../FaqPages/FAQ-Publication.html">Publication</a>
+                        <a class="information-link simple-text Normal-text" href="../FaqPages/FAQ-PaymentSystems.html">Payment Systems</a>
+                        <a class="information-link simple-text Normal-text" href="../FaqPages/FAQ-Integrations.html">Integrations</a>
+                        <a class="information-link simple-text Normal-text" href="../FaqPages/FAQ-General.html">General</a>
+                    </aside>
+
+                    <dl class="qestion">   
+                        <h3 class="qestion-header less-text Bold-text">General</h3>                  
+                        
+                        
+                        <div class="qestionContainer">
+                            <button type="button" class="trigger"><img src="img/documents-file.svg" loading="lazy" alt="Question document">
+                                <dt class="qestion-punct simple-text text-color__bark Normal-text">
+                                    How do I connect statistics?
+                                </dt>
+                            </button>
+                            <div class="content">
+                                <dd class="qestion-punct__description">
+                                    How do I connect statistics? In the settings, select the Statistics option. ... Authorize access to your account. If you already have an account, the connection will be automated and you will be taken to the statistics management page.
+                                </dd>
+                            </div>
+                        </div>
+
+                        <div class="qestionContainer">
+                            <button type="button" class="trigger"><img src="img/documents-file.svg" loading="lazy" alt="Question document">
+                                <dt class="qestion-punct simple-text text-color__bark Normal-text">
+                                   How do I delete my project? 
+                                </dt>
+                            </button>
+                            <div class="content">
+                                <dd class="qestion-punct__description">
+                                    Log in to your personal account an open the page with the list of your projects. Open the menu of the project you would like to delete and go to settings. In the setting window click the Delete project button
+                                </dd>
+                            </div>
+                        </div>
+                        
+                         <div class="qestionContainer">
+                            <button type="button" class="trigger"><img src="img/documents-file.svg" loading="lazy" alt="Question document">
+                                <dt class="qestion-punct simple-text text-color__bark Normal-text">
+                                    How do I create my project's copy?
+                                </dt>
+                            </button>
+                            <div class="content">
+                                <dd class="qestion-punct__description">
+                                    Log in to your account and open the page with the list of your projects. Open the menu and click Duplicate.
+                                </dd>
+                            </div>
+                        </div>
+                        
+                        <div class="qestionContainer">
+                            <button type="button" class="trigger"><img src="img/documents-file.svg" loading="lazy" alt="Question document">
+                                <dt class="qestion-punct simple-text text-color__bark Normal-text">
+                                    How do I transfer my project to another account? 
+                                </dt>
+                            </button>
+                            <div class="content">
+                                <dd class="qestion-punct__description">
+                                    Contact the Support Team in the account settings or write us here.
+                                </dd>
+                            </div>
+                        </div>
+                        
+                       
+                        <div class="qestionContainer">
+                            <button type="button" class="trigger"><img src="img/documents-file.svg" loading="lazy" alt="Question document">
+                                <dt class="qestion-punct simple-text text-color__bark Normal-text">
+                                    "An unexpected error occurred" message
+                                </dt>
+                            </button>
+                            <div class="content">
+                                <dd class="qestion-punct__description">
+                                    <p style="padding-bottom: 20px;">If Calkit returns the "An unexpected error has occurred" message, this means we are working on debugging and improving the system.</p>
+
+                                    <p style="padding-bottom: 20px;">Contact our Support Team to let us know you've run into this error and provide details on the device you're using, operating system, browser, and its version.</p>
+
+                                    <p style="padding-bottom: 20px;">We will apprecite if you forward us a screenshot of the error with the open browser's console (in most browsers you can open it with the Ctrl + Shift + I command (1), and then navigate to the Console tab.</p>
+                                </dd>
+                            </div>
+                        </div>
+
+                    </dl>
+                </div> 
+            </section>
+        </section>    
+
+        <!-- footer -->
+        
+        <footer>
+            <div class="container">
+                <div class="footer-top content-center">
+                    <a href="../index.php"><img src="../include/footer/img/logo-footer__bark.svg" loading="lazy" alt="logo"></a>
+                    <div class="footer-top_container space-between__property">
+                        <a class="footer-top_link black-text simple-text" href="../LisenseAgreement/LisenseAgreement.html">Agreement</a> 
+                        <a class="footer-top_link black-text simple-text" href="../PricingPlans/price.html">Pricing</a>
+                        <a class="footer-top_link black-text simple-text" href="../Feedback/contact.php">Feedback</a>  
+                        <a class="footer-top_link black-text simple-text" href="../FaqMain/faq.html">Knowledge Base</a> 
+                        <a class="footer-top_link black-text simple-text" href="../AffiliateProgram/AffiliateProgram.html">Affiliate Program</a> 
+                        <a class="footer-top_link black-text simple-text" href="../PrivacyPolicy/privacyPolicy.html">Privacy Policy</a>
+                    </div>
+                </div>
+                <p class="footer-lower_copyright">©2021 CALKit. All rights reserved.</p> 
+            </div> 
+        </footer>
+        
+        <a href="#" id="scroll_top" title="Upstairs"></a>
+
+        <script  src="../js/scroll.js"></script>
+        <script src='https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js'></script>
+      
+        <script  src="../js/show-text.js"></script>
+        <script  src="../js/loader.js"></script>
+  </body>
+</html>
