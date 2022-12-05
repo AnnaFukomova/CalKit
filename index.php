@@ -1,12 +1,12 @@
 <?php
 require_once 'templates/header/head.php';
 ?>        
-        <div class="back-transform color-back__dark dark-back__main"> <!-- index -->
+        <div class="back-transform color-back__dark dark-back__main"> 
 
             <?php
             require_once 'templates/header/header-dark.php';
             ?>
-            <section class="container content-center">
+            <section class="container section-container section-center flex">
                 <div class="introduction-black">
                     <h1  class="main-header сentral-text"><span class="accent-color"> Calculators & Forms</span><br>
                     <span class="light-text">To Make Your Business Thrive</span></h1>
@@ -205,24 +205,22 @@ require_once 'templates/header/head.php';
         <section  class="back-transform section-perfect_for_any">
             <div class="container space-between__property">
                 <div class="section-pfa__container flex">
-                    <!-- <div class="section-pfa__info"> -->
-                        <h2 id="affiliate" class="pfa-info__title thicker-text light-text">Perfect For Any Website</h2> 
-                        <p  class="pfa-info__text light-text simple-text">
-                            Once you’ve created and saved your calculator or form, 
-                            its universal code can be embedded into a website on any platform.
-                        </p>
-                    
-                        <div class="pfa-btn__container flex-wrapper">
-                            <a class="btn colored-button Semiless-text simple-text" href="PricingPlans/price.php">Start Now</a>
-                            <a class="pfa-info__btnNocolore Semiless-text simple-text  light-text" href="AffiliateProgram/AffiliateProgram.php">Show more</a>
-                        </div>
-                    <!-- </div>-->
+                    <h2 id="affiliate" class="pfa-info__title thicker-text light-text">Perfect For Any Website</h2> 
+                    <p  class="pfa-info__text light-text simple-text">
+                        Once you’ve created and saved your calculator or form, 
+                        its universal code can be embedded into a website on any platform.
+                    </p>
+                
+                    <div class="pfa-btn__container flex-wrapper">
+                        <a class="btn colored-button Semiless-text simple-text" href="price.php">Start Now</a>
+                        <a class="pfa-info__btnNocolore Semiless-text simple-text  light-text" href="AffiliateProgram.php">Show more</a>
+                    </div>
                     <p class="pfa-info__minitext small-text Medium-text">
                         Sign up and get access to our guides, telling you how to install a 
                         calculator on popular website platforms and CMS
                     </p>
                 </div>
-                <div>
+                <div class="pfa-img__container">
                     <img class="pfa-info__img" src="img/index/6-pfa/6-websites.svg" alt="websites"> 
                 </div>
             </div>
@@ -247,12 +245,11 @@ require_once 'templates/header/head.php';
                         </div>
                     </div>
                 
-                    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+                    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
 
                     <!-- слайдер Slick -->
-                    <script src="js/slider/slick.min.js"></script>
-
-                    <script src="js/slider/script.js"></script>
+                    <script src="./js/slider/slick.min.js"></script>
+                    <script src="./js/slider/script.js"></script>
                 </div>
             </div>
         </section>
@@ -260,7 +257,7 @@ require_once 'templates/header/head.php';
         <!-- Ready? (Готовы?) -->
         <section  class="section-ready content-center">
             <div class="back-transform ready-back__fon content-center"> 
-                <div class="container">
+                <div class="container сentral-text">
                     <h3 class="section-ready__heading сentral-text black-text">Ready to create a calculator?</h3>
                     <p class="section-ready__text Normal-text__title Normal-text  сentral-text text-color__bark">
                         Create a calculator of any complexity in a visual editor without coding skills 
@@ -275,7 +272,7 @@ require_once 'templates/header/head.php';
 
         <!-- Order (Заказ) -->
         <section  class="content-center">
-            <div class="back-transform order-back__fon">
+            <div class=" order-back__fon back-transform">
                 <div class="container" style="justify-content: space-around;">
                     <div class="space-between__property">
                         <div class="order-info flex">
@@ -291,11 +288,12 @@ require_once 'templates/header/head.php';
                                 </p>
                             </div>
                         </div>
-                        <img class="pfa-info__img" src="img/index/9-order/9-opportunities.png" alt="opportunities"> 
+                        <img class="pfa-info__img" src="img/functions.png" alt="opportunities"> 
                     </div>
                 </div>
             </div>        
         </section>
-<?php
-require_once 'templates/footer.php';
-?>
+
+        <?php
+        require_once 'templates/footer.php';
+        ?>

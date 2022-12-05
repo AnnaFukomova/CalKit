@@ -16,82 +16,21 @@ if (!empty($_POST)) {
     </script>
     <?php
 }
-    
+        require_once 'templates/header/head.php';
+  
 ?>
-<!doctype html>
-<html lang="en">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="viewport" content="width=device-width">
-        <link rel="shortcut icon" href="../include/img/logo.svg">
-        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-
-        <!-- fonts CSS -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
-        <!-- style CSS -->
-        <link rel="stylesheet" href="../include/reset.css">
-        <link rel="stylesheet" href="../css/loader.css">
-        <link rel="stylesheet" href="../PricingPlans/css/section.css">
-        <link rel="stylesheet" href="../Feedback/css/section.css">
-        <link rel="stylesheet" href="../include/header/header.css">
-        <link rel="stylesheet" href="../include/footer/footer.css">
-        
-        <link rel="stylesheet" href=".././include/scroll/scrolTop.css">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-
-        <meta name="description" content="Calculators & Forms To Make Your Business Thrive! Get in touch with us."/>
-        <title>CalKit-Feedback Form</title>
-    </head>
-    <body>
         <div class="mask">
             <div class="loader-wrap">
                 <div class="loader"></div>
             </div>
         </div>
 
-        <div class="form-wrap__fon back-transform">
-            <!-- <header>
-                <div class="header-container space-between__property">
-                    <a href="../index.php"><img class="" src="../include/header/img/1-logo_light.svg" loading="lazy" alt="Logo"></a>
-                    <menu class="nav-container flex">
-                        <li><a class="header-link" href="../index.php">Home</a></li>     
-                        <li><a class="header-link" href="../PricingPlans/price.html">Price</a></li>     
-                        <li><a class="header-link" href="../AffiliateProgram/affiliateProgram.html">Affiliate Program</a></li>
-                        <li><a class="header-link" href="../FaqMain/faq.html">Knowledge Base</a></li>
-                        <li><a class="header-link" href="../Feedback/contact.php">Feedback</a></li>
-                    </menu>
-                </div>
-            </header> -->
-            <header class="header-container space-between__property">                
-                <nav class="navbar navbar-color__dark">
-                    <div class="container">
-                        <div class="navbar__wrap">
-                            <div class="hamb">
-                                <div class="hamb__field" id="hamb">
-                                    <span class="bar"></span>
-                                    <span class="bar"></span>
-                                    <span class="bar"></span>
-                                </div>
-                            </div>
-                            <a href="../index.php"><img class="" src="../include/header/img/1-logo_light.svg" loading="lazy" alt="Logo"></a>
-                            <ul class="menu" id="menu">
-                                <li><a class="header-link" href="../index.php">Home</a></li> 
-                                <li><a class="header-link" href="../PricingPlans/price.html">Price</a></li>
-                                <li><a class="header-link" href="../AffiliateProgram/affiliateProgram.html">Affiliate Program</a></li>
-                                <li><a class="header-link" href="../FaqMain/faq.html">Knowledge Base</a></li>
-                                <li><a class="header-link" href="../Feedback/contact.php">Feedback</a></li>            
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-                <div class="popup" id="popup"></div>
-            </header>
+        <div class="form-wrap__fon headSpace back-transform">
+             
+            <?php
+                require_once 'templates/header/header-dark.php';
+            ?>
+
             <div class="container">
                 <div class="feedback-wrap">  
                     <form id="contact" action="" method="post">
@@ -143,28 +82,7 @@ if (!empty($_POST)) {
         </section>
     </div>
     <!-- footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-top content-center">
-                <a href="../index.php"><img src="../include/footer/img/logo-footer__bark.svg" loading="lazy" alt="logo"></a>
-                <div class="footer-top_container space-between__property">
-                    <a class="footer-top_link black-text simple-text" href="../LisenseAgreement/LisenseAgreement.html">Agreement</a> 
-                    <a class="footer-top_link black-text simple-text" href="../PricingPlans/price.html">Pricing</a>
-                    <a class="footer-top_link black-text simple-text" href="../Feedback/contact.php">Feedback</a>  
-                    <a class="footer-top_link black-text simple-text" href="../FaqMain/faq.html">Knowledge Base</a> 
-                    <a class="footer-top_link black-text simple-text" href="../AffiliateProgram/AffiliateProgram.html">Affiliate Program</a> 
-                    <a class="footer-top_link black-text simple-text" href="../PrivacyPolicy/privacyPolicy.html">Privacy Policy</a></a> 
-                </div>
-            </div>
-            <p class="footer-lower_copyright">©2021 CALKit. All rights reserved.</p> 
-        </div> 
-    </footer>
-    
-    <a href="#" id="scroll_top" title="Upstairs"></a>
-
-    <script  src="../js/scroll.js"></script>
-    <script src='https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js'></script>
-    <script  src="../js/loader.js"></script>
-  </body>
-</html>
+    <?php
+    require_once 'templates/footer.php';
+    ?>
    

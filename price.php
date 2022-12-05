@@ -3,7 +3,7 @@ require_once 'templates/header/head.php';
 ?>
     <div class="back-transform pricing-fon">
         <?php 
-        require_once 'templates/header/header-dark.php';
+        require_once 'templates/header/header-light.php';
         ?>
 
             <section class="section-pricing">
@@ -187,7 +187,7 @@ require_once 'templates/header/head.php';
                                     </p>
                                 </div>
                             </div>
-                                <img class="pfa-info__img" src="img/opportunities.png"> 
+                                <img class="pfa-info__img" src="img/functions.png"> 
                         </div>
                     </div>
                 </div>        

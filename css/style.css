@@ -230,6 +230,10 @@ a, button, select {
 }
 
 @media (max-width: 1000px) {
+    .headSpace {
+      padding-top: 85px;
+    }
+
     body {
         font-size: 16px;
         line-height: 24px;

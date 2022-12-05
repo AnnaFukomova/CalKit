@@ -1,4 +1,4 @@
-        <!-- footer -->
+       <!-- footer -->
         <footer>
             <div class="container">
                 <div class="footer-top content-center">
@@ -17,7 +17,8 @@
         </footer>
             
         <a href="#" id="scroll_top" title="Upstairs"></a> 
-
+        
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script  src="js/scroll.js"></script>
         <script  src="js/loader.js"></script>
         <script src="js/hamberger.js"></script>

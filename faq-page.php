@@ -1,20 +1,12 @@
     <?php 
         require_once 'templates/header/head.php';
-        require_once 'templates/header/header-dark.php';
     ?>
-
-        <div class="mask">
-            <div class="loader-wrap">
-                <div class="loader"></div>
-            </div>
-        </div>
-
         <section>
             <div class="section-fon">
                 <header class="header-min">
                     <div class="flex header-container__min">
                         <div class="flex header-container-min__link"> 
-                            <img class="link-arrow" src="../FaqPages/img/arrow-light.svg" loading="lazy" alt="arrow"><a class="header-link light-text" href="../index.php">Back to CalKit</a>
+                            <img class="link-arrow" src="img/faqPages/arrow-light.svg" loading="lazy" alt="arrow"><a class="header-link light-text" style="padding: 0px" href="index.php">Back to CalKit</a>
                         </div>
                     </div>
                 </header>
@@ -25,7 +17,7 @@
             </div>
             
             <section class="section-informationMaterials">
-                <div class="section-container flex">
+                <div class="section-container space-between__property">
                     <aside class="informate-aside">
                         <h3 class="information-heading Bold-text less-text">Categories</h3>
                         <a class="information-link simple-text Normal-text" href="../FaqPages/FAQ-Pricing.html">Pricing</a>
@@ -42,7 +34,7 @@
                         <h3 class="qestion-header less-text Bold-text">Formulas</h3>                  
 
                         <div class="qestionContainer">
-                            <button type="button" class="trigger"><img src="img/documents-file.svg" loading="lazy" alt="Question document">
+                            <button type="button" class="trigger"><img src="img/faqPages/documents-file.svg" loading="lazy" alt="Question document">
                                 <dt class="qestion-punct simple-text text-color__bark Normal-text">
                                     What happens when the trial days are up?
                                 </dt>
@@ -55,7 +47,7 @@
                         </div>
 
                         <div class="qestionContainer">
-                            <button type="button" class="trigger"><img src="img/documents-file.svg" loading="lazy" alt="Question document">
+                            <button type="button" class="trigger"><img src="img/faqPages/documents-file.svg" loading="lazy" alt="Question document">
                                 <dt class="qestion-punct simple-text text-color__bark Normal-text">
                                     Using a promo code
                                 </dt>
@@ -68,7 +60,7 @@
                         </div>
                         
                         <div class="qestionContainer">
-                            <button type="button" class="trigger"><img src="img/documents-file.svg" loading="lazy" alt="Question document">
+                            <button type="button" class="trigger"><img src="img/faqPages/documents-file.svg" loading="lazy" alt="Question document">
                                 <dt class="qestion-punct simple-text text-color__bark Normal-text">
                                     How do I disable copyright?
                                 </dt>
@@ -81,7 +73,7 @@
                         </div>
 
                         <div class="qestionContainer">
-                            <button type="button" class="trigger"><img src="img/documents-file.svg" loading="lazy" alt="Question document">
+                            <button type="button" class="trigger"><img src="img/faqPages/documents-file.svg" loading="lazy" alt="Question document">
                                 <dt class="qestion-punct simple-text text-color__bark Normal-text">
                                     Formula result values
                                 </dt>
@@ -94,7 +86,7 @@
                         </div>
 
                         <div class="qestionContainer">
-                            <button type="button" class="trigger"><img src="img/documents-file.svg" loading="lazy" alt="Question document">
+                            <button type="button" class="trigger"><img src="img/faqPages/documents-file.svg" loading="lazy" alt="Question document">
                                 <dt class="qestion-punct simple-text text-color__bark Normal-text">
                                     Calculating product/service discounts
                                 </dt>
@@ -107,7 +99,7 @@
                         </div>
 
                         <div class="qestionContainer">
-                            <button type="button" class="trigger"><img src="img/documents-file.svg" loading="lazy" alt="Question document">
+                            <button type="button" class="trigger"><img src="img/faqPages/documents-file.svg" loading="lazy" alt="Question document">
                                 <dt class="qestion-punct simple-text text-color__bark Normal-text">
                                     Boolean expressions 
                                 </dt>
@@ -118,13 +110,12 @@
                                 </dd>
                             </div>
                         </div>
-
                     </dl>
                 </div> 
             </section>
         </section>    
         
-    <script  src="../js/show-text.js"></script>
+    <script  src="js/show-text.js"></script>
     <!-- footer -->
     <?php
         require_once 'templates/footer.php';
