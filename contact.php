@@ -40,6 +40,9 @@ if (!empty($_POST)) {
                         </div>
                         <input class="form-element" type="text" id="name" name="name" placeholder="Your name" maxlength="40" required>
                         <input class="form-element" type="email" id="email" name="email" placeholder="Your email" maxlength="40" required>
+
+                        
+
                         <textarea  class="form-element" id="message" name="message" placeholder="Enter your message..." maxlength="500" required></textarea>
                         <p class="feedback-text сentral-text">PleaseBy signing up, you acknowledge that you have read and agree to the 
                         <a class="feedback-link" href="../LisenseAgreement/LisenseAgreement.html">Lisense Agreement</a> and <a class="feedback-link" href="../PrivacyPolicy/privacyPolicy.html">Privacy Policy</a>.</p>

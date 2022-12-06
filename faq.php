@@ -3,7 +3,7 @@
 ?>
     <section class="knowage-fon headSpace">
         <?php 
-            require_once 'templates/header/header-light.php';
+            require_once 'templates/header/header-dark.php';
         ?>
         
         <!-- header dark -->

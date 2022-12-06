@@ -6,7 +6,7 @@ require_once 'templates/header/head.php';
             <?php
             require_once 'templates/header/header-dark.php';
             ?>
-            <section class="container section-container section-center flex">
+            <section class="container section-container content-center">
                 <div class="introduction-black">
                     <h1  class="main-header сentral-text"><span class="accent-color"> Calculators & Forms</span><br>
                     <span class="light-text">To Make Your Business Thrive</span></h1>
@@ -19,7 +19,7 @@ require_once 'templates/header/head.php';
                         </p>
                     </div>
                     <div class="introduction-btn_black content-center">
-                        <a class="btn introduction-btn colored-button simple-text" href="PricingPlans/price.php">Start Now</a>
+                        <a class="btn introduction-btn colored-button simple-text" href="price.php">Start Now</a>
                     </div>
                     <div class="example-black"> 
                         <img class="example-black__img" src="img/index/1-main_informaion/example_img.png" alt="example img">
@@ -112,10 +112,9 @@ require_once 'templates/header/head.php';
                 <div class="makes-container">
                     <!-- 1 block -->
                     <div class="makes-element flex">
+                        <h5 class="makes-element__heading SemiBold-title Bold-text">Change Design</h5> 
 
-                        <h5 class="makes-element__heading less-text Bold-text">Change Design</h5> 
-
-                        <div class="makes-element-blockConainer flex">
+                        <div class="makes-element-blockConainer flex ">
                             <div class="makes-element__black flex">
                                 <img class="makes-element__img" src="img/index/5-easy/6.1-colors.svg" alt="colors">
                                 <p class="makes-element__text Medium-text simple-text">
@@ -142,7 +141,7 @@ require_once 'templates/header/head.php';
                     <!-- 2 block -->
                     <div class="makes-element flex">
 
-                        <h5 class="makes-element__heading">Configure Calculator</h5> 
+                        <h5 class="makes-element__heading SemiBold-title Bold-text">Configure Calculator</h5> 
 
                         <div class="makes-element-blockConainer flex">
                             <div class="makes-element__black flex">
@@ -171,7 +170,7 @@ require_once 'templates/header/head.php';
                     <!-- 3 block -->
                     <div class="makes-element flex">
 
-                        <h5 class="makes-element__heading">Process Orders</h5> 
+                        <h5 class="makes-element__heading SemiBold-title Bold-text">Process Orders</h5> 
 
                         <div class="makes-element-blockConainer flex">
                             <div class="makes-element__black flex">
@@ -205,14 +204,14 @@ require_once 'templates/header/head.php';
         <section  class="back-transform section-perfect_for_any">
             <div class="container space-between__property">
                 <div class="section-pfa__container flex">
-                    <h2 id="affiliate" class="pfa-info__title thicker-text light-text">Perfect For Any Website</h2> 
+                    <h2 class="affiliate-title pfa-info__title thicker-text light-text">Perfect For Any Website</h2> 
                     <p  class="pfa-info__text light-text simple-text">
                         Once you’ve created and saved your calculator or form, 
                         its universal code can be embedded into a website on any platform.
                     </p>
                 
                     <div class="pfa-btn__container flex-wrapper">
-                        <a class="btn colored-button Semiless-text simple-text" href="price.php">Start Now</a>
+                        <a class="btn pfa-btn colored-button Semiless-text" href="price.php">Start Now</a>
                         <a class="pfa-info__btnNocolore Semiless-text simple-text  light-text" href="AffiliateProgram.php">Show more</a>
                     </div>
                     <p class="pfa-info__minitext small-text Medium-text">
@@ -221,35 +220,7 @@ require_once 'templates/header/head.php';
                     </p>
                 </div>
                 <div class="pfa-img__container">
-                    <img class="pfa-info__img" src="img/index/6-pfa/6-websites.svg" alt="websites"> 
-                </div>
-            </div>
-        </section>
-
-        <section class="section-review">
-            <div class="container">                
-                <h2 class="review-title thicker-text">What People Say</h2> 
-                <div class="slider-wrapper">
-                    <div class="slider">
-                        <div class="slider__item">
-                            <img src="img/index/img-slider/slides/01.png" loading="lazy" alt="first review">
-                        </div>
-                        <div class="slider__item">
-                            <img src="img/index/img-slider/slides/02.png" loading="lazy" alt="second review">
-                        </div>
-                        <div class="slider__item">
-                            <img src="img/index/img-slider/slides/03.png" loading="lazy" alt="third review">
-                        </div>
-                        <div class="slider__item">
-                            <img src="img/index/img-slider/slides/04.png" loading="lazy" alt="fourth review">
-                        </div>
-                    </div>
-                
-                    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-
-                    <!-- слайдер Slick -->
-                    <script src="./js/slider/slick.min.js"></script>
-                    <script src="./js/slider/script.js"></script>
+                    <img src="img/index/6-pfa/6-websites.svg" alt="websites"> 
                 </div>
             </div>
         </section>
@@ -288,7 +259,9 @@ require_once 'templates/header/head.php';
                                 </p>
                             </div>
                         </div>
-                        <img class="pfa-info__img" src="img/functions.png" alt="opportunities"> 
+                        <div class="pfa-img__container">
+                            <img src="img/functions.png" alt="opportunities"> 
+                        </div>
                     </div>
                 </div>
             </div>        

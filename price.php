@@ -13,7 +13,7 @@ require_once 'templates/header/head.php';
                     <div class="pricing-container flex">
                         <div class="pricing-info">
                             <div class="price-block__header">
-                                <p class="pricing-punct pricing-block__element__marker small-text Medium-text demiBlack">We're currently live on AppSumo with super plans. <a href="#" class="pricing-punct__accent small-text Medium-text small-text Medium-text">Learn more on AppSumo</a></p> 
+                                <p class="pricing-punct pricing-block__element__marker small-text Medium-text demiBlack">We're currently live on AppSumo with super plans.</p> 
                             </div>
                             <p class="pricing-punct pricing-block__element simple-text Medium-text">Number of pages</p> 
                             <p class="pricing-punct pricing-block__element simple-text Medium-text">Email notifications</p> 
@@ -31,39 +31,38 @@ require_once 'templates/header/head.php';
                             <p class="pricing-punct pricing-block__element simple-text Medium-text" style="border: none;">File attachment</p>
                         </div>
                     
-
                         <div class="pricing-block">
                             <div class="price-block__header">
                                 <div class="price-box"> 
                                     <h3 class="pricing-title less-text Bold-text text-color__bark">Basic</h3> 
                                     <div class="flex"> 
                                         <div class="pricing-currency Semiless-text simple-text text-color__bark">$</div>
-                                        <p class="pricing-cost big-header Bold-text text-color__bark">8</p> 
+                                        <p class="big-header Bold-text text-color__bark">8</p> 
                                         <div class="price-tail">                                
                                             <p class="pricing-triva text-color__bark">.00</p> 
                                             <p class="pricing-onTime">/month</p>
                                         </div>
                                     </div>  
                                 </div>                      
-                                <div class="content-center"><a class="pricing-button small-text Semiless-text text-color__bark"  href="../Feedback/contact.php">Choose Plan</a></div>
+                                <div class="content-center"><a class="pricing-button small-text Semiless-text text-color__bark"  href="contact.php">Choose Plan</a></div>
                             </div>
 
                             <ul class="pricing-list">
                                 <li class="pricing-block__element simple-text content-center">5</li>
                                 <li class="pricing-block__element simple-text content-center">3</li> 
-                                <li class="pricing-block__element simple-text content-center">+300<img src="../PricingPlans/img/plus.png" alt="plus"></li>
-                                <li class="pricing-block__element simple-text content-center">0<img src="../PricingPlans/img/plus.png" alt="plus"></li>
-                                <li class="pricing-block__element content-center"><img src="../PricingPlans/img/checkout.png" alt="is available"></li>
-                                <li class="pricing-block__element content-center"><img src="../PricingPlans/img/checkout.png" alt="is available"></li>
-                                <li class="pricing-block__element content-center"><img src="../PricingPlans/img/checkout.png" alt="is available"></li>
-                                <li class="pricing-block__element content-center"><img src="../PricingPlans/img/checkout.png" alt="is available"></li>
-                                <li class="pricing-block__element content-center"><img src="../PricingPlans/img/checkout.png" alt="is available"></li>
-                                <li class="pricing-block__element content-center"><img src="../PricingPlans/img/checkout.png" alt="is available"></li>
-                                <li class="pricing-block__element content-center"><img src="../PricingPlans/img/The_cross.png" alt="not active"></li>
-                                <li class="pricing-block__element content-center"><img src="../PricingPlans/img/The_cross.png" alt="not active"></li>
-                                <li class="pricing-block__element content-center"><img src="../PricingPlans/img/checkout.png" alt="is available"></li>
-                                <li class="pricing-block__element content-center"  style="border: none;"><img src="../PricingPlans/img/checkout.png" alt="is available"></li>
-                                <li class="content-center"><a class="pricing-button small-text Semiless-text text-color__bark" href="../Feedback/contact.php"  style="margin: 26px 0 24px;">Choose Plan</a></li>
+                                <li class="pricing-block__element simple-text content-center">+300<img src="img/price/plus.png" alt="plus"></li>
+                                <li class="pricing-block__element simple-text content-center">0<img src="img/price/plus.png" alt="plus"></li>
+                                <li class="pricing-block__element content-center"><img src="img/price/checkout.png" alt="is available"></li>
+                                <li class="pricing-block__element content-center"><img src="img/price/checkout.png" alt="is available"></li>
+                                <li class="pricing-block__element content-center"><img src="img/price/checkout.png" alt="is available"></li>
+                                <li class="pricing-block__element content-center"><img src="img/price/checkout.png" alt="is available"></li>
+                                <li class="pricing-block__element content-center"><img src="img/price/checkout.png" alt="is available"></li>
+                                <li class="pricing-block__element content-center"><img src="img/price/checkout.png" alt="is available"></li>
+                                <li class="pricing-block__element content-center"><img src="img/price/The_cross.png" alt="not active"></li>
+                                <li class="pricing-block__element content-center"><img src="img/price/The_cross.png" alt="not active"></li>
+                                <li class="pricing-block__element content-center"><img src="img/price/checkout.png" alt="is available"></li>
+                                <li class="pricing-block__element content-center"  style="border: none;"><img src="img/price/checkout.png" alt="is available"></li>
+                                <li class="content-center"><a class="pricing-button small-text Semiless-text text-color__bark" href="contact.php"  style="margin: 26px 0 24px;">Choose Plan</a></li>
                             </ul>
                         </div>
 
@@ -80,25 +79,25 @@ require_once 'templates/header/head.php';
                                         </div>
                                     </div>  
                                 </div>                      
-                                <div class="content-center"><a class="pricing-button small-text Semiless-text text-color__bark" href="../Feedback/contact.php">Choose Plan</a></div>
+                                <div class="content-center"><a class="pricing-button small-text Semiless-text text-color__bark" href="contact.php">Choose Plan</a></div>
                             </div>
 
                             <ul class="pricing-list">   
                                 <li class="pricing-block__element simple-text content-center">15</li> 
                                 <li class="pricing-block__element simple-text content-center">10</li> 
-                                <li class="pricing-block__element simple-text content-center">+1 000<img src="../PricingPlans/img/plus.png" alt="plus"></li>
-                                <li class="pricing-block__element simple-text content-center">+10<img src="../PricingPlans/img/plus.png" alt="plus"></li>
-                                <li class="pricing-block__element content-center"><img src="../PricingPlans/img/checkout.png" alt="is available"></li>
-                                <li class="pricing-block__element content-center"><img src="../PricingPlans/img/checkout.png" alt="is available"></li>
-                                <li class="pricing-block__element content-center"><img src="../PricingPlans/img/checkout.png" alt="is available"></li>
-                                <li class="pricing-block__element content-center"><img src="../PricingPlans/img/checkout.png" alt="is available"></li>
-                                <li class="pricing-block__element content-center"><img src="../PricingPlans/img/checkout.png" alt="is available"></li>
-                                <li class="pricing-block__element content-center"><img src="../PricingPlans/img/checkout.png" alt="is available"></li>
-                                <li class="pricing-block__element content-center"><img src="../PricingPlans/img/checkout.png" alt="is available"></li>
-                                <li class="pricing-block__element content-center"><img src="../PricingPlans/img/The_cross.png" alt="not active"></li>
-                                <li class="pricing-block__element content-center"><img src="../PricingPlans/img/checkout.png" alt="is available"></li>
-                                <li class="pricing-block__element content-center" style="border: none;"><img src="../PricingPlans/img/checkout.png" alt="is available"></li>
-                                <li class="content-center"><a class="pricing-button small-text Semiless-text text-color__bark" href="../Feedback/contact.php"  style="margin: 26px 0 24px;">Choose Plan</a></li>
+                                <li class="pricing-block__element simple-text content-center">+1 000<img src="img/price/plus.png" alt="plus"></li>
+                                <li class="pricing-block__element simple-text content-center">+10<img src="img/price/plus.png" alt="plus"></li>
+                                <li class="pricing-block__element content-center"><img src="img/price/checkout.png" alt="is available"></li>
+                                <li class="pricing-block__element content-center"><img src="img/price/checkout.png" alt="is available"></li>
+                                <li class="pricing-block__element content-center"><img src="img/price/checkout.png" alt="is available"></li>
+                                <li class="pricing-block__element content-center"><img src="img/price/checkout.png" alt="is available"></li>
+                                <li class="pricing-block__element content-center"><img src="img/price/checkout.png" alt="is available"></li>
+                                <li class="pricing-block__element content-center"><img src="img/price/checkout.png" alt="is available"></li>
+                                <li class="pricing-block__element content-center"><img src="img/price/checkout.png" alt="is available"></li>
+                                <li class="pricing-block__element content-center"><img src="img/price/The_cross.png" alt="not active"></li>
+                                <li class="pricing-block__element content-center"><img src="img/price/checkout.png" alt="is available"></li>
+                                <li class="pricing-block__element content-center" style="border: none;"><img src="img/price/checkout.png" alt="is available"></li>
+                                <li class="content-center"><a class="pricing-button small-text Semiless-text text-color__bark" href="contact.php"  style="margin: 26px 0 24px;">Choose Plan</a></li>
                             </ul> 
                         </div>
 
@@ -115,25 +114,25 @@ require_once 'templates/header/head.php';
                                         </div>
                                     </div>  
                                 </div>                      
-                                <div class="content-center"><a class="pricing-button small-text Semiless-text text-color__bark" href="../Feedback/contact.php">Choose Plan</a></div>
+                                <div class="content-center"><a class="pricing-button small-text Semiless-text text-color__bark" href="contact.php">Choose Plan</a></div>
                             </div>
 
                             <ul class="pricing-list">    
                                 <li class="pricing-block__element simple-text content-center">&#8734;</li>
-                                <li class="pricing-block__element simple-text content-center">999 <img src="../PricingPlans/img/plus.png" alt="plus"></li>
-                                <li class="pricing-block__element simple-text content-center">+3 000 <img src="../PricingPlans/img/plus.png" alt="plus"></li>
+                                <li class="pricing-block__element simple-text content-center">999 <img src="img/price/plus.png" alt="plus"></li>
+                                <li class="pricing-block__element simple-text content-center">+3 000 <img src="img/price/plus.png" alt="plus"></li>
                                 <li class="pricing-block__element simple-text content-center">+30</li>
-                                <li class="pricing-block__element content-center"><img src="../PricingPlans/img/checkout.png" alt="is available"></li>
-                                <li class="pricing-block__element content-center"><img src="../PricingPlans/img/checkout.png" alt="is available"></li>
-                                <li class="pricing-block__element content-center"><img src="../PricingPlans/img/checkout.png" alt="is available"></li>
-                                <li class="pricing-block__element content-center"><img src="../PricingPlans/img/checkout.png" alt="is available"></li>
-                                <li class="pricing-block__element content-center"><img src="../PricingPlans/img/checkout.png" alt="is available"></li>
-                                <li class="pricing-block__element content-center"><img src="../PricingPlans/img/checkout.png" alt="is available"></li>
-                                <li class="pricing-block__element content-center"><img src="../PricingPlans/img/checkout.png" alt="is available"></li>
-                                <li class="pricing-block__element content-center"><img src="../PricingPlans/img/checkout.png" alt="is available"></li>
-                                <li class="pricing-block__element content-center"><img src="../PricingPlans/img/checkout.png" alt="is available"></li>
-                                <li class="pricing-block__element content-center" style="border: none;"><img src="../PricingPlans/img/checkout.png" alt="is available"></li>
-                                <li class="content-center"><a class="pricing-button small-text Semiless-text text-color__bark" href="../Feedback/contact.php" style="margin: 26px 0 24px;">Choose Plan</a></li>
+                                <li class="pricing-block__element content-center"><img src="img/price/checkout.png" alt="is available"></li>
+                                <li class="pricing-block__element content-center"><img src="img/price/checkout.png" alt="is available"></li>
+                                <li class="pricing-block__element content-center"><img src="img/price/checkout.png" alt="is available"></li>
+                                <li class="pricing-block__element content-center"><img src="img/price/checkout.png" alt="is available"></li>
+                                <li class="pricing-block__element content-center"><img src="img/price/checkout.png" alt="is available"></li>
+                                <li class="pricing-block__element content-center"><img src="img/price/checkout.png" alt="is available"></li>
+                                <li class="pricing-block__element content-center"><img src="img/price/checkout.png" alt="is available"></li>
+                                <li class="pricing-block__element content-center"><img src="img/price/checkout.png" alt="is available"></li>
+                                <li class="pricing-block__element content-center"><img src="img/price/checkout.png" alt="is available"></li>
+                                <li class="pricing-block__element content-center" style="border: none;"><img src="img/price/checkout.png" alt="is available"></li>
+                                <li class="content-center"><a class="pricing-button small-text Semiless-text text-color__bark" href="contact.php" style="margin: 26px 0 24px;">Choose Plan</a></li>
                             </ul>
                         </div>
                     </div>

@@ -119,6 +119,12 @@
   color: rgb(115, 79, 177);
 }
 
+@media (max-width: 1200px) {
+  .header-container {
+    max-width: 900px;
+ }
+}
+
 @media (max-width: 1000px) {
   .navbar__wrap .menu {
     display: none;
@@ -143,12 +149,20 @@
     padding: 10px 20px;
     cursor: pointer;
   }
+
+  .bar-light {
+    background-color: rgba(248, 248, 248, 0.814);
+  }
+   
+  .bar-dark {
+    background-color: rgba(0, 0, 0, 0.814);
+  }
+
   .bar {
     display: block;
     width: 30px;
     height: 3px;
     margin: 6px auto;
-    background-color: rgba(255, 255, 255, 0.66);
     transition: 0.2s;
   }
   .popup {
@@ -201,5 +215,8 @@
   }
   body.noscroll {
     overflow: hidden;
+  }
+  .navbar__wrap > a {
+    padding-right: 20px;
   }
 }

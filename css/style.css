@@ -92,15 +92,10 @@ a, button, select {
     justify-content: center;
 }
 
+
+
 .сentral-text {
     text-align: center;
-}
-
-.colored-button {
-    color: #160E34;
-    background: #FBC401;
-    border-radius: 12px;
-    border: none;
 }
 
 .btn {
@@ -115,6 +110,7 @@ a, button, select {
     border-radius: 12px;
     border: none;
 }
+
 
 .example-black, 
 .benefits-block {

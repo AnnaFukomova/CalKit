@@ -4,9 +4,9 @@
                     <div class="navbar__wrap">
                         <div class="hamb">
                             <div class="hamb__field" id="hamb">
-                                <span class="bar"></span>
-                                <span class="bar"></span>
-                                <span class="bar"></span>
+                                <span class="bar bar-dark"></span>
+                                <span class="bar bar-dark"></span>
+                                <span class="bar bar-dark"></span>
                             </div>
                         </div>
                         <a href="index.php" class="logo" id="logo"><img src="include/header/img/1-logo_black.svg" alt="logo black"></a>
