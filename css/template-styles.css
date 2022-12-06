@@ -917,7 +917,6 @@ input[type="search"]::placeholder {
         flex-basis: calc(50% - 26px);
         margin-bottom: 80px;
     }
-
     .benefits-block {
         max-width: 300px;
     }
@@ -928,23 +927,18 @@ input[type="search"]::placeholder {
         font-size: 16px;
         line-height: 24px;
     }
-
     .example-black {
         max-width: calc(100%+32px);
     }
-
     .advantage-item {
         max-width: 290px;
     }
-
     .example-black__img {
         border-radius: 1.7vw;
     } 
-
     .section-benefits {
         flex-wrap: wrap;
     }
-    
     .benefits-block {
         flex-basis: 100%;
         max-width: 780px;
@@ -956,24 +950,19 @@ input[type="search"]::placeholder {
     .makes-element {
         flex-wrap: wrap;
     }
-
     .makes-element__heading {
         padding-bottom: 30px; 
     }
-
     .pfa-info__minitext {
         padding-top: 20px;
         padding-bottom: 30px;
     }
-
     .pfa-info__btnNocolore {
         margin: 12px 0 0 0;
     }
-
     .pfa-img__container {
         padding-left: 35px;
     }
-
     .affiliate-title {
         padding-top: 80px;
         font-size: 38px;
