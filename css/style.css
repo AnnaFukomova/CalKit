@@ -4,13 +4,11 @@ html {
     box-sizing: border-box;
     height: 100%;
 }
-
 *,
 *::after,
 *::before {
     box-sizing: inherit;
 }
-
 body {
     font-family: 'Inter';
     background-color: #F9F9FA;
@@ -20,23 +18,19 @@ body {
     font-weight: 400;
     min-height: 100vh;
 }
-
 h1 {
     font-weight: 800;
     font-size: 60px;
     line-height: 75px;
 }
-
 footer {
     margin-top: auto;
 }
-
 img { 
     pointer-events: none;
     max-width: 100%;
     height: auto;
 }
-
 .container {
     width: 100%;
     max-width: 1180px;
@@ -44,64 +38,52 @@ img {
     margin: 0 auto;
 }
 
-
 .back-transform {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
 }
-
 menu li {
     list-style: none;
 }
-
 /* cursor */
 
 a, button, select {
     cursor: pointer;
 }
-
 /* flex */
 
 .flex {
     display: flex;
 }
-
 .flex-wrapper__adaptiveColumn {
     display: flex;
     flex-flow: column nowrap;
 }
 
-
 .flex-wrapper {
     display: flex;
     flex-wrap: wrap;
 }
-
 .flex-item__flow {
     flex-flow: column;
 }
-
 .space-between__property {
     display: flex;
     justify-content: space-between;
 }
-
 .content-center {
     display: flex;
     justify-content: center;
 }
 
 
-
 .сentral-text {
     text-align: center;
 }
-
 .btn {
     padding: 14px 32px;  
 }
-
 .colored-button {
     line-height: 26px;
     color: #160E34;
@@ -111,23 +93,19 @@ a, button, select {
     border: none;
 }
 
-
 .example-black, 
 .benefits-block {
     border-radius: 24px;
 }
-
 .less-text {
     font-size: 24px;
     line-height: 30px;
 }
-
 .thicker-text {
     font-weight: 800;
     font-size: 48px;
     line-height: 54px;
 }
-
 .simple-text {
     line-height: 26px;
 } 
@@ -137,134 +115,107 @@ a, button, select {
     font-size: 54px;
     line-height: 60px;
 }
-
 .big-header {
     font-size: 48px;
     line-height: 54px;
 }
-
 .midle-text__heading {
     font-size: 36px;
     line-height: 42px;
 }
-
 .SemiBold-title {
     font-size: 20px;
     line-height: 26px;
 }
-
 .regular-text {
     line-height: 18px;
 }
-
 .Normal-text__title {
     font-size: 24px;
     line-height: 34px;
 }
-
 .SemiBold-narrow {
     line-height: 20px;
 }
-
 .small-text {
     font-size: 15px;
     line-height: 24px;
 }
-
 .dark-back {
     background-color: #131126;
 }
-
 /* thickness */
 
 
 .Normal-text {
     font-weight: 400;
 }
-
 .Medium-text {
     font-weight: 500;
 }
-
 .SemiBold-text__Middle {
     font-weight: 600; 
 }
-
 .Bold-text {
     font-weight: 700;
 }
-
 /* Color */
 
 
 .light-text {
     color: #FFFFFF;
 }
-
 .grey-colorText {
     color: #5B5B5B;
 }
-
 .accent-color {
     color: #FBC401;
 }
-
 .text__accent {
     color: #4419EF;
 }
-
 .black-text {
     color: #333333;
 }
-
 .text-color__bark {
     color: #111111;
 }
-
 .demiBlack {
     color: #160E34;
 }
-
 @media (max-width: 1000px) {
     .headSpace {
       padding-top: 85px;
     }
-
     body {
         font-size: 16px;
         line-height: 24px;
     }
-
     h1 {
         font-size: 56px;
         line-height: 66px;
     }
 }
-
 @media (max-width: 820px) {
     body {
         font-size: 15px;
         line-height: 22px;
     }
-
     h1 {
         font-size: 42px;
         line-height: 50px;
     }
 }
-
 @media (max-width: 635px) {
     body {
         font-size: 14px;
         line-height: 20px;
     }
-
     h1 {
         font-size: 38px;
         line-height: 46px; 
     }
 }
-
 @media (max-width: 480px) {
     h1 {
         font-size: 32px;
